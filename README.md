@@ -19,9 +19,9 @@ Dependencies:
 
 ## Instructions
 
-Clone this repository underneath the `usr.lib` folder in your
-LabVIEW installation and open the project. The `Example.vi` will show you
-how to get started.
+Clone this repository (preferably underneath the `usr.lib` folder in
+your LabVIEW installation) and open the project. The VIs in the
+`Example` folder will show you how to get started.
 
 ![Example](example.png)
 

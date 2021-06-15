@@ -17,7 +17,10 @@
 			<Item Name="ICommHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/lvwamp/Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
 			<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/lvwamp/Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
 		</Item>
-		<Item Name="Example.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/Example.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Connect and publish.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/Examples/Connect and publish.vi"/>
+			<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/Examples/Publish and Subscribe Event-based.vi"/>
+		</Item>
 		<Item Name="WAMP Client.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/WAMP Client.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
