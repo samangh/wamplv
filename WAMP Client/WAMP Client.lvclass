@@ -694,6 +694,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="Goodbye.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/WAMP Messages/Goodbye.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'/!!!!$!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!1!#!!-*:8*S&lt;X)A&lt;X6U!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$V&gt;"46!A1WRJ:7ZU)'^V&gt;!!31$$`````#56S=G^S)&amp;6331!11$$`````"UVF=X.B:W5!5Q$R!!!!!!!!!!)46U&amp;.5#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=RB(4U^%1FF&amp;)&amp;*F=86F=X1A2'&amp;U93ZD&gt;'Q!(E"1!!)!"A!($U&gt;P&lt;W2C?75A5G6R&gt;76T&gt;!!A1&amp;!!!Q!"!!)!!R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$F&gt;"46!A1WRJ:7ZU)'FO!!"5!0!!$!!!!!!!"!!&amp;!!!!!!!!!!!!!!!)!!E!#A-!!(A!!!!!!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!EA!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
 	<Item Name="New Client.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/New Client.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*%)LPQ!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
