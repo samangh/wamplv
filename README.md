@@ -23,6 +23,8 @@ Clone this repository underneath the `usr.lib` folder in your
 LabVIEW installation and open the project. The `Example.vi` will show you
 how to get started.
 
+![Example](example.png)
+
 ## License
 
 Licensed under LGPG v2.1 with exceptions. See [LICENSE](LICENSE).
