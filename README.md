@@ -6,7 +6,7 @@ A LabVIEW-based client for the [Web Application Messaging Protocol
 The aim is for _lvwamp_ to provide the WAMP basic profiles for client roles.
 
 *   Platform: Windows, Linux, macOS and Real Time targets
-*   Roles: subscriber and publisher
+*   Roles: caller, subscriber and publisher
 *   Transport: WebSocket
 *   Message Serialisation: JSON
 
