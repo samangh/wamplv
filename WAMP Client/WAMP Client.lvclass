@@ -44,16 +44,6 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
 			</Item>
-			<Item Name="Write Address.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/Accessors/Write Address.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$V&gt;"46!A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````](172E=G6T=Q!O1(!!(A!!&amp;2.815V1)%.M;76O&gt;#ZM&gt;G.M98.T!!Z815V1)%.M;76O&gt;#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!#%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
-				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-			</Item>
 		</Item>
 		<Item Name="Daemon Stopped" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Daemon Stopped</Property>
@@ -97,16 +87,6 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
 			</Item>
-			<Item Name="Write Port.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/Accessors/Write Port.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$V&gt;"46!A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!"A!%5'^S&gt;!!!,E"Q!"Y!!"546U&amp;.5#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!/6U&amp;.5#"$&lt;'FF&lt;H1A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
-				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-			</Item>
 		</Item>
 		<Item Name="Realm" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Realm</Property>
@@ -121,16 +101,6 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
 			</Item>
-			<Item Name="Write Realm.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/Accessors/Write Realm.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$V&gt;"46!A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!Z!-0````]&amp;5G6B&lt;'U!,E"Q!"Y!!"546U&amp;.5#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!/6U&amp;.5#"$&lt;'FF&lt;H1A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1117782016</Property>
-				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-			</Item>
 		</Item>
 		<Item Name="Session ID" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Session ID</Property>
@@ -144,16 +114,6 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
-			</Item>
-			<Item Name="Write Session ID.vi" Type="VI" URL="/&lt;userlib&gt;/lvwamp/WAMP Client/Accessors/Write Session ID.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%K!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!$V&gt;"46!A1WRJ:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!"Q!+5W6T=WFP&lt;C"*2!!!,E"Q!"Y!!"546U&amp;.5#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!/6U&amp;.5#"$&lt;'FF&lt;H1A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#3!!!!!!%!#1!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
-				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
