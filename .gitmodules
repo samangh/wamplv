@@ -1,4 +1,0 @@
-[submodule "MsgPack"]
-	path = MsgPack
-	url = git@github.com:PronovaPaul/MsgPack_LabVIEW.git
-	branch = master
