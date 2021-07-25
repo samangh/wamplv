@@ -24,6 +24,13 @@ your LabVIEW installation) and open the project. The VIs in the
 
 ![Example](example.png)
 
+Some notes:
+
+*   Remember to always call `Disconnect.vi` at the end. This will
+    disconnect from the router and stop the communication daemon that
+    runs in the background. Simply stopping the VI is not enough as the
+    `lvwamp` communication daemon runs asynchronously in the background.
+
 ## License
 
 Licensed under LGPG v2.1 with exceptions. See [LICENSE](LICENSE).
