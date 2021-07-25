@@ -27,9 +27,9 @@ your LabVIEW installation) and open the project. The VIs in the
 Some notes:
 
 *   Remember to always call `Disconnect.vi` at the end. This will
-    disconnect from the router and stop the communication daemon that
-    runs in the background. Simply stopping the VI is not enough as the
-    `lvwamp` communication daemon runs asynchronously in the background.
+    disconnect from the router and stop the communication daemon. Simply
+    stopping the VI is not enough as the _lvwamp_ communication daemon
+    runs asynchronously in the background.
 
 ## License
 
