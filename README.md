@@ -1,9 +1,9 @@
-# lvwamp
+# wamplv
 
 A LabVIEW-based client for the [Web Application Messaging Protocol
 (WAMP)](https://wamp-proto.org/).
 
-The aim is for _lvwamp_ to provide the WAMP basic profiles for client roles.
+The aim is for _wamplv_ to provide the WAMP basic profiles for client roles.
 
 *   Platform: Windows, Linux, macOS and Real Time targets
 *   Roles: caller, subscriber and publisher
@@ -28,7 +28,7 @@ Some notes:
 
 *   Remember to always call `Disconnect.vi` at the end. This will
     disconnect from the router and stop the communication daemon. Simply
-    stopping the VI is not enough as the _lvwamp_ communication daemon
+    stopping the VI is not enough as the _wamplv_ communication daemon
     runs asynchronously in the background.
 
 ## License
