@@ -16,6 +16,9 @@ Dependencies:
 *   [MediaMongrels' WebSockets toolkit](https://www.vipm.io/package/mediamongrels_ltd_lib_websockets_api/)
 *   [JDP Science's JSONtext toolkit](https://www.vipm.io/package/jdp_science_jsontext/)
 
+This library is still a work in progress, and one the API is stabilised
+it will be also distributed as a VIP package.
+
 ## Instructions
 
 Clone this repository (preferably underneath the `usr.lib` folder in
