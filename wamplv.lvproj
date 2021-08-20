@@ -13,20 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Comm Handlers" Type="Folder">
-			<Item Name="ICommHandler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/wamplv/Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
-			<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/wamplv/Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
-		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Connect and publish.vi" Type="VI" URL="/&lt;userlib&gt;/wamplv/Examples/Connect and publish.vi"/>
 			<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="/&lt;userlib&gt;/wamplv/Examples/Publish and Subscribe Event-based.vi"/>
 		</Item>
-		<Item Name="WAMP Client.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/wamplv/WAMP Client/WAMP Client.lvclass"/>
+		<Item Name="wamplv.lvlib" Type="Library" URL="/&lt;userlib&gt;/wamplv/WAMP Client/TypeDef/wamplv.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Daemon Termination Reason.ctl" Type="VI" URL="/&lt;userlib&gt;/wamplv/lvwamp/WAMP Client/TypeDef/Daemon Termination Reason.ctl"/>
-				<Item Name="Daemon Termination Request.ctl" Type="VI" URL="/&lt;userlib&gt;/wamplv/lvwamp/WAMP Client/TypeDef/Daemon Termination Request.ctl"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Base64/Base64 Support.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
