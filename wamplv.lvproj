@@ -13,12 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Examples" Type="Folder">
-			<Item Name="Connect and publish.vi" Type="VI" URL="/&lt;userlib&gt;/wamplv/Examples/Connect and publish.vi"/>
-			<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="/&lt;userlib&gt;/wamplv/Examples/Publish and Subscribe Event-based.vi"/>
-			<Item Name="Publish and Subscribe Queue-based.vi" Type="VI" URL="/&lt;userlib&gt;/wamplv/Examples/Publish and Subscribe Queue-based.vi"/>
-		</Item>
-		<Item Name="wamplv.lvlib" Type="Library" URL="/&lt;userlib&gt;/wamplv/WAMP Client/TypeDef/wamplv.lvlib"/>
+		<Item Name="wamplv.lvlib" Type="Library" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/TypeDef/wamplv.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Base64/Base64 Support.lvlib"/>
