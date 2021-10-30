@@ -4,13 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Comm Handlers" Type="Folder">
-		<Item Name="ICommHandler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/samangh/wamplv/Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
-		<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/samangh/wamplv/Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
+		<Item Name="ICommHandler.lvclass" Type="LVClass" URL="../Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
+		<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="../Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Connect and publish.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/Examples/Connect and publish.vi"/>
-		<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/Examples/Publish and Subscribe Event-based.vi"/>
-		<Item Name="Publish and Subscribe Queue-based.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/Examples/Publish and Subscribe Queue-based.vi"/>
+		<Item Name="Connect and publish.vi" Type="VI" URL="../Examples/Connect and publish.vi"/>
+		<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Event-based.vi"/>
+		<Item Name="Publish and Subscribe Queue-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Queue-based.vi"/>
 	</Item>
-	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/WAMP Client.lvclass"/>
+	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
