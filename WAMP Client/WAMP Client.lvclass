@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">wamplv.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/&lt;vilib&gt;/samangh/wamplv/WAMP Client/TypeDef/wamplv.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/&lt;vilib&gt;/samangh/wamplv/wamplv.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\:3R&lt;6MR%):`'S\3;A.$A#?Y&amp;42#.%#;[^,&amp;5'G87O&amp;@15!KFSJ3JLE6N))'='!IX_/D:$EWJ#9'8*D538T`(?__2V+57PMC87FXLPU_W5;`2J0W1QX$9\]/@L80'0D3L_@"0`0XU]?:Y^-&lt;`LXHN@]%`\GGE_X4`_H`W0\TR`P_`*`A@:NUU5CRQIQF&amp;OXN&gt;I6?[)6?[)6?[%9XON'.&lt;H3D*XKC*XKC*XKC"XKA"XKA"XKANYYO&gt;+%,H65JCB?&amp;CK2&amp;AC)9&amp;"6@"5`"5`!50$SKY#FY#J[#J_!B2!60Q60Q&amp;$Q&amp;$^.5]"1]"5`"5`#1KJ&amp;5[_DQ&amp;$SEF_%R0)&lt;(]"A?3MLQ'!"4T#1W3=#1=:K"Y4%]BI?B$)`B-4S'R`$AFO%R0)&lt;(]"A?JL26=;-:/DI]J&amp;(#E`!E0!F0QE.K*4Q*4]+4]#1]F&amp;0#E`!E%%H"*$E)3C9F!=F$QJ0Q]+/%*_&amp;*?"+?B!&gt;8W[&amp;M+T01$"U&gt;HI!HY!FY!J[!BR1+?!+?A#@A#8B)KY!HY!FY!J[!BV)+?!+?A#=!#9J38E'S9')1&amp;!A"$Z^W7K,NEBN*N.\`GO."64_![A&gt;,`=#I(Q4V$6&lt;@/05.56^I^1658RDV&amp;V:`%86!^=,K#&gt;5$N?6\A[WR&amp;&lt;&lt;%&amp;NA=GW&amp;4&lt;$*-`=_"W_V7G]V'[`6;K^6+S_63C]6#]`F=M^F-U_F5E]HE=&amp;N&gt;U]&gt;W=8QP`8HY=@@Y=00L]?@8O[&gt;PN\OH\\?(O_/?W0?Q]6\[#(?D,L5\OO::I\^*:KF3!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.17</Property>
@@ -925,13 +925,13 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			</Item>
 			<Item Name="Unregister.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/API/WAMP/Unregister.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!$!!%!!!!$E!B#&amp;.V9W.F=X-`!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!^815V1)%.M;76O&gt;#"P&gt;81!%U!$!!V5;7VF)'^V&gt;#!I&lt;8-J!!R!-0````]$66**!#"!5!!$!!)!!Q!%%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!Z815V1)%.M;76O&gt;#"J&lt;A!!3!$Q!!I!!!!"!!5!"A!!!!!!"Q!)!!E!#A-!!.!!!!!!!!!*!!!!$1A!!)U*!!!!!!!!!!!!!!I!!!)1!!!!#A!!!*)!!!!!!1!,!!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#&amp;.V9W.F=X-`!!!%!!!!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!^815V1)%.M;76O&gt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!-!$62J&lt;75A&lt;X6U)#BN=SE!$%!Q`````Q.65EE!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!Z815V1)%.M;76O&gt;#"J&lt;A!!3!$Q!!I!!Q!%!!5!"A!&amp;!!5!"Q!)!!E!#A-!!.!!!!U'!!!*!!!!!!!!!)U*!!!!!!!!!!!!!!I!!!!+!!!#%!!!!*)!!!!!!1!,!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 			</Item>
 			<Item Name="Yield.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/API/WAMP/Yield.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'`!!!!$A!]1(!!(A!!)ARX97VQ&lt;(9O&lt;(:M;7)46U&amp;.5#"$&lt;'FF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$F&gt;"46!A1WRJ:7ZU)'FO!!!%!!!!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!^815V1)%.M;76O&gt;#"P&gt;81!'U!(!"6*&lt;H:P9W&amp;U;7^O)&amp;*F=86F=X1A351!$%"4"X:B=GFB&lt;H1!&amp;E"!!!(`````!!1*18*H&gt;7VF&lt;H2T!"2!-0````],18*H&gt;7VF&lt;H2T3X=!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!"Q!)!!E4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"U^Q&gt;'FP&lt;H-!&amp;E"1!!-!"Q!)!!E*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!"1!"!!9!!1!+!!M!!1!"!!Q$!!%)!!!3!!!!!!!!!!!!!!!!!!!!$1!!!!A!!!!!!!!#%!!!!!!!!!))!!!!!!!!!!I!!!))!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!.!!!!!!</Property>
@@ -980,13 +980,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
 		<Item Name="Is Connected.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/SubVIs/Is Connected.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$5FT)%.P&lt;GZF9X2F:$]!"!!!!$R!=!!?!!!C$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T!!!06U&amp;.5#"$&lt;'FF&lt;H1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!#)-&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-!!!Z815V1)%.M;76O&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!"1!&amp;!!A$!!"Y!!!.#!!!#1!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%E!B$5FT)%.P&lt;GZF9X2F:$]!"!!!!$R!=!!?!!!C$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T!!!06U&amp;.5#"$&lt;'FF&lt;H1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)E!B(&amp;*B;8.F)'6S=G^S)'FG)'ZP&gt;#"D&lt;WZO:7.U:71!!$R!=!!?!!!C$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T!!!/6U&amp;.5#"$&lt;'FF&lt;H1A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!A!"1!*!Q!!?!!!$1A!!!E!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!!!!!#1!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="New Client.vi" Type="VI" URL="/&lt;vilib&gt;/samangh/wamplv/WAMP Client/API/New Client.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*%)LPQ!!%!!!!!!!!</Property>

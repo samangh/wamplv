@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">wamplv.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/&lt;vilib&gt;/samangh/wamplv/WAMP Client/TypeDef/wamplv.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/&lt;vilib&gt;/samangh/wamplv/wamplv.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+E!!!*Q(C=\&gt;5`DN.!&amp;-@R(YC2;(-$.BV+_;Y1#EK+2/)#4^K#/OWG#QV#M"*[$1?)@).=Y6UB6UBJ7:;6],6X&gt;I6INA'%U)ZXP-FP`HUS&gt;BRJ+C_F&amp;\I]6MKC,VX4&lt;&amp;87T8GL2&gt;-7.6W`,;3FU.ZN&gt;6ZI["&lt;H6E0@8&gt;;FOX4$775YV`:O++6&gt;^(UJC[9&lt;BL)&gt;/(&gt;N=T^_45NB"E\H&lt;NOU4&gt;].[W(&gt;X\&gt;X$9PX(5O/Z`81U\ZIBP;_P@4.M*7'=^/UX&lt;;^,-:W2N_VDU5;TWV&lt;@CW0@HQ^F;@S@Z?&lt;2\]%@`R\]%TDAYC;V+![V41O?UHS*%`S*%`S*!`S)!`S)!`S)(&gt;S*X&gt;S*X&gt;S*T&gt;S)T&gt;S)T&gt;S)Z]/=J',8/31EM74B:**EQG3TF#5H"*0YEE]C9?X3DS**`%EHM2$&amp;S7?R*.Y%E`C9:A34_**0)EH]4$6*-HJ)-?4?*B?A3@Q"*\!%XB95I%H!!3,"2-(E]"1U"C]#$S"*`$Q5I%H]!3?Q".Y;&amp;&lt;A#4S"*`!%(I:-OR+4:DT)]4#.()`D=4S/R`%QN2S0YX%]DM@RM*Q=D_.R%-[#TO11Z!RS/DBP()`DY:]=D_.R0)\(]&gt;!U83'@&gt;G&lt;5D!=Z(M.D?!S0Y4%]4#($9XA-D_%R0%QLQW.Y$)`B-4QM*=.D?!S0!4%7:8E:ERE$D5Z'9(DYG_Y7G[Z34"+&lt;$KH?P+IXJ?L.JHI4K&gt;Y=KB&gt;&gt;^7+K8C46T6@&gt;6.8.5NU%V1_HCF&lt;&amp;K#[C/HDMK"0H)`6!X6.XV!VV26V3Z^4:/01X&gt;TS&gt;4DI?DTI=$NLP^^LN&gt;NJM.FKN6FIOFZL0ZZL.:A_0A6==$Q_%O_@3VU^P0NZ_?2/X6R`C]^8VW^P:__NPX^_^PK(08`B^`A??D8KOH^&gt;ADXY!4_*U\!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
