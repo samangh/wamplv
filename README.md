@@ -22,16 +22,6 @@ Once things have stabilised it will be distributed as a VIP package.
  The VIs in the `Example` folder will show you how to get started.
 
 ![Example](images/example.png)
-
-Some notes:
-
- *  Remember to always call `Disconnect.vi` at the end. This will
-    disconnect from the router and stop the communication daemon. Simply
-    stopping the VI is not enough as the _wamplv_ communication daemon
-    runs asynchronously in the background.
- *  If you havfinished using the WAMP client after disconnecting, call
-    `Cleanup.vi` to cleanup any internal DVRs and to unregister the user
-    events that _wamplv_creates.
     
 #### Connecting
 
@@ -44,7 +34,7 @@ websocket.
 
 ![Connecting](images/connecting.png)
 
-### Disconnecting
+#### Disconnecting
 
 Call `Disconnect.vi` to disconnect.
 
@@ -55,9 +45,50 @@ Notes:
     stopping the VI is not enough as the _wamplv_ communication daemon
     runs asynchronously in the background.
     
- *  If you havfinished using the WAMP client after disconnecting, call
-    `Cleanup.vi` to cleanup any internal DVRs and to unregister the user
-    events that _wamplv_creates.
+ *  If you have finished using the WAMP client after disconnecting
+    (i.e. will not reconnect), call `Cleanup.vi` to cleanup any internal
+    DVRs and to unregister the user events that _wamplv_creates.
+
+#### Synchronous calls
+
+Synchronous calls can be made using `Call.vi`. This a blocking call and
+will block until a reply is received from the router, or a time out
+occurs. If the router or callee returns an error, the `Error out`
+terminal will be set. Furthermore, the `WAMP error` terminal will
+contains details of the WAMP error message received.
+
+![Calling synchronously](images/call.png)
+
+#### Asynchronous calls
+
+Asynchronous calls can be made using `Call (async).vi`. This is a
+non-blocking VI. You need to create a user event with the `RESULT
+payload.ctl` as the user event data, register to it, and then pass it on
+to `Call (async.vi)`. The result of the call will be made available via
+a user event.
+
+If you don't care about the result of the endpoint call, do not a user
+event to this VI.
+
+If there is an error, the WAMP error details and a generated LabVIEW
+error based on the WAMP error will be included in the user event data.
+
+![Calling asynchronously](images/async-call.PNG)
+
+#### Publishing
+
+You can publish using `Publish.vi`. The publication is done
+asynchronously by default.
+
+If you need confirmation that a publication succeeded, set the `Request
+Ack.` terminal to true. In this case the publication will occur
+synchronously and the returned `Sucess` terminal will indicated whether
+the router successfully published to the topic or not.
+
+If you need to know whether a publication succeeded or not
+asynchronously, look at `Publish (async).vi`.
+
+![Calling asynchronously](images/publish.png)
 
 ## License
 

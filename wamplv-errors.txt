@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="wamplv" displayname="wamplv">
+</nifamily>
+</nicomment>
+<nierror code="-8003">
+Router disconnected
+</nierror>
+<nierror code="-8001">
+Receied WAMP error message
+</nierror>
+<nierror code="-8000">
+Received WAMP abort message
+</nierror>
+</nidocument>

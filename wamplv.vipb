@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-10-31 14:23:51" Creator="Saman" Comments="" ID="a842749015fea101a009b4009e7806b0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-11-01 17:29:20" Creator="Saman" Comments="" ID="6ec5b5424a232e4a0fd42bbfb772bbd0">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
     <Library_Version>0.1.0.3</Library_Version>
@@ -110,6 +110,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>wamplv-errors.txt</Path>
+        <Destination>3</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -125,9 +131,6 @@
       </Exclusions>
       <Exclusions>
         <Path>.gitmodules</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>example.png</Path>
       </Exclusions>
       <Exclusions>
         <Path>README.md</Path>
@@ -360,7 +363,7 @@
         <Path>WAMP Client\API\WAMP</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98A78F26A1BE07A903AC9197B314CF30</GUID>
+      <GUID>0D40C1140151EE713B6F2ABDD12F89BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -423,7 +426,7 @@
         <Path>Examples\Publish and Subscribe Queue-based.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>429EA13AB87B2879309D6763A702F28D</GUID>
+      <GUID>74D55E80B4D32B1E62966DEFF4D1048A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -668,7 +671,7 @@
         <Path>WAMP Client\API\WAMP\Unregister.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>216768E8DE70BAB5C3E649FEA277B2C3</GUID>
+      <GUID>A67F2D904E684F3C10A13C79ADA6907B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
