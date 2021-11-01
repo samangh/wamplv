@@ -42,7 +42,7 @@ The router addres must be a fully formed address, for example use
 `ws://localhost:8080/` to connect to the localhost on port 8080 using
 websocket.
 
-<img src="images/connecting.png" width="300">
+![Connecting](images/connecting.png)
 
 ### Disconnecting
 
