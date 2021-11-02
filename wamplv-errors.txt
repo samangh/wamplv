@@ -9,7 +9,7 @@
 Router disconnected
 </nierror>
 <nierror code="-8001">
-Receied WAMP error message
+Received WAMP error message
 </nierror>
 <nierror code="-8000">
 Received WAMP abort message
