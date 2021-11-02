@@ -1,9 +1,8 @@
 # wamplv
 
 A LabVIEW-based client for the [Web Application Messaging Protocol
-(WAMP)](https://wamp-proto.org/).
-
-The aim is for _wamplv_ to provide the WAMP basic profiles for client roles.
+(WAMP)](https://wamp-proto.org/). _wamplv_ supports the WAMP basic
+profiles for client roles.
 
 *   Platform: Windows, Linux, macOS and Real Time targets
 *   Roles: caller, callee, subscriber and publisher
@@ -11,7 +10,24 @@ The aim is for _wamplv_ to provide the WAMP basic profiles for client roles.
 *   Message Serialisation: JSON
 
 This library will only work on LabVIEW 2020 or later. This library is
-still a work in progress and the API is subject to change. 
+still in a beta stage and the API is subject to change, but is fully
+usable.
+
+The library is designed to give you complete flexibility in how you use
+WAMP:
+
+ * All actions within the library can be done either synchronously or
+   asynchronously;
+
+ * Once subscribed to a topic, you can choose to received the topic
+   events either via LabVIEW user events or calling a VI that will block
+   until a publication is received or a timeout occurs (this effectively
+   implements a publications queue);
+
+ * Once you've registered an endpoint, you can receive the invocations
+   by either registering for user event or calling a VI that will block
+   until an endpoint is invoked or a timeout occurs (this effectively
+   implements an invocations queue).
 
 ## Installation
 
@@ -22,7 +38,7 @@ Once things have stabilised it will be distributed as a VIP package.
  The VIs in the `Example` folder will show you how to get started.
 
 ![Example](images/example.png)
-    
+
 #### Connecting
 
 Use the `New Client.vi` to create a new WAMP client and then
@@ -44,7 +60,7 @@ Notes:
     disconnect from the router and stop the communication daemon. Simply
     stopping the VI is not enough as the _wamplv_ communication daemon
     runs asynchronously in the background.
-    
+
  *  If you have finished using the WAMP client after disconnecting
     (i.e. will not reconnect), call `Cleanup.vi` to cleanup any internal
     DVRs and to unregister the user events that _wamplv_creates.
@@ -89,6 +105,40 @@ If you need to know whether a publication succeeded or not
 asynchronously, look at `Publish (async).vi`.
 
 ![Calling asynchronously](images/publish.png)
+
+#### Subscribing and receiving notifications
+
+You can subscribe to a topic using `Subscribe.vi`.
+
+Once subscribed, you can receive notifications in the followings ways:
+
+ * By registering for the user event that the `Subscribe.vi` returns;
+   this event is triggered everything publication to that specific topic
+   is received;
+
+ * By registering for the overall `Event Received` user event (available
+   as a property node);
+
+ * By calling `Wait for event.vi`, which will wait until a publication
+   event is received or a time out is received; this effectively
+   implements a topic publications queue.
+
+#### Registering endpoints and receiving invocations
+
+You can register and endpoint using `Register.vi`.
+
+Once registered, you can receive invocations in the followings ways:
+
+ * By registering for the user event that the `Register.vi` returns;
+   this event is triggered everything publication to that specific topic
+   is received;
+
+ * By registering for the overall `Endpoint invoked` user event
+   (available as a property node);
+
+ * By calling `Wait for Invocation.vi`, which will wait until an
+   endpoint is invoked or it times out; this effectively implements a
+   endpoint invocations queue.
 
 ## License
 
