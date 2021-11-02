@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-11-02 18:26:03" Creator="Saman" Comments="" ID="eac55d37eb7fb268d90e0ad6b0440714">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-11-02 20:29:05" Creator="Saman" Comments="" ID="a6e5216769f6cecd067bd17848bc4bbc">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
     <Library_Version>0.1.0.4</Library_Version>
@@ -41,30 +41,30 @@
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\samangh\wamplv</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\examples\samangh\wamplv</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\_probes\samangh\wamplv</Path>
       </Custom_Probes>
       <Custom_Errors>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;project&gt;\errors</Path>
       </Custom_Errors>
       <Help_Files>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;help&gt;\samangh\wamplv</Path>
       </Help_Files>
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\templates\samangh\wamplv</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -363,7 +363,7 @@
         <Path>Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B11208F499AB3A7B9431267363A002E</GUID>
+      <GUID>976005F75DEE930A028E753849306AE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -426,7 +426,7 @@
         <Path>Examples\Publish and Subscribe Queue-based.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD7C1BE7F771353148A59EB8F397FFE3</GUID>
+      <GUID>E81B8B5FA00F9F4674D14A3128A6C2E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -587,7 +587,7 @@
         <Path>WAMP Client\API\WAMP\Yield Error (async).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEA7892B8BE95027714488FF6A11302A</GUID>
+      <GUID>237EF72C7F30838F9AAE7792FC31A860</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
