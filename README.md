@@ -31,7 +31,11 @@ WAMP:
 
 ## Installation
 
-Once things have stabilised it will be distributed as a VIP package.
+You can install it using the VI package manager.
+
+_wamplv_ is available on the VIPM Community repository. Alternatively,
+the VI package is also available to download
+[here](https://github.com/samangh/wamplv/releases).
 
 ## Instructions
 
