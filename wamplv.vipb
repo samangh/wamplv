@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-11-03 10:14:55" Creator="Saman" Comments="" ID="c069bab6a466e58f0c46f725aa358d47">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2021-12-05 23:16:29" Creator="Saman" Comments="" ID="79509a5c31bd4ab05e74236087d3d370">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
-    <Library_Version>1.0.1.2</Library_Version>
+    <Library_Version>1.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -41,7 +41,9 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
       <Copyright>Copyright (c) 2021, Saman Ghannadzadeh</Copyright>
       <Packager>Saman Ghannadzadeh</Packager>
       <URL>https://github.com/samangh/wamplv</URL>
-      <Release_Notes>Make block diagrams standardised and add passing options when making WAMP calls.</Release_Notes>
+      <Release_Notes>- Make block diagrams standardised
+- Allow passing options when making WAMP calls
+- Make  arguments optional when publishing</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -200,6 +202,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -495,7 +498,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>WAMP Client\API\WAMP\Yield Error (async).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29BFD7E62398FE2F26FD769CF558C96B</GUID>
+      <GUID>14BECA86FFC0A174EF0FEAB429CD5C9B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -558,7 +561,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>Examples\Publish and Subscribe Queue-based.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82450B3B7D5C2E5F0332DCAC9242F0B2</GUID>
+      <GUID>9D7FEB550665D951D99A6B16C6C8B3DD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
