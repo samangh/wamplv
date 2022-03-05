@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Comm Handlers" Type="Folder">
-		<Item Name="Byte to Half-Bytes.vi" Type="VI" URL="../RawSocket Handler/Byte to Half-Bytes.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="CommHandlerBase.lvclass" Type="LVClass" URL="../CommHandlerBase/CommHandlerBase.lvclass"/>
 		<Item Name="ICommHandler.lvclass" Type="LVClass" URL="../Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
 		<Item Name="RawSocket Handler.lvclass" Type="LVClass" URL="../RawSocket Handler/RawSocket Handler.lvclass"/>
