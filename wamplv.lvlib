@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Comm Handlers" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="CommHandlerBase.lvclass" Type="LVClass" URL="../CommHandlerBase/CommHandlerBase.lvclass"/>
+		<Item Name="CommHandlerBase.lvclass" Type="LVClass" URL="../Comm Handlers/CommHandlerBase/CommHandlerBase.lvclass"/>
 		<Item Name="ICommHandler.lvclass" Type="LVClass" URL="../Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
-		<Item Name="RawSocket Handler.lvclass" Type="LVClass" URL="../RawSocket Handler/RawSocket Handler.lvclass"/>
+		<Item Name="RawSocket Handler.lvclass" Type="LVClass" URL="../Comm Handlers/RawSocket Handler/RawSocket Handler.lvclass"/>
 		<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="../Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
