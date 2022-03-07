@@ -5,6 +5,24 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8009">
+Specified transport protocol unsupported
+</nierror>
+<nierror code="-8008">
+Router does not support a feature requested during raw socket handshake
+</nierror>
+<nierror code="-8007">
+Router reached maximum number of connections
+</nierror>
+<nierror code="-8006">
+Router cannot accept maximum message length
+</nierror>
+<nierror code="-8005">
+Router does not support serialiser
+</nierror>
+<nierror code="-8004">
+Router does not support raw socket protocol
+</nierror>
 <nierror code="-8003">
 Router disconnected
 </nierror>
@@ -13,5 +31,8 @@ Received WAMP error message
 </nierror>
 <nierror code="-8000">
 Received WAMP abort message
+</nierror>
+<nierror code="-8010">
+Unsupported message type in TCP message framee
 </nierror>
 </nidocument>
