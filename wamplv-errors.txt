@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8011">
+Receievd unexppected rawsocket TCP PONG message
+</nierror>
 <nierror code="-8010">
 Unsupported message type in TCP message framee
 </nierror>
@@ -34,8 +37,5 @@ Received WAMP error message
 </nierror>
 <nierror code="-8000">
 Received WAMP abort message
-</nierror>
-<nierror code="-8011">
-Receievd unexptect rawsocket TCP PONG message
 </nierror>
 </nidocument>
