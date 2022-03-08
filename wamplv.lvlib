@@ -7,7 +7,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="CommHandlerBase.lvclass" Type="LVClass" URL="../Comm Handlers/CommHandlerBase/CommHandlerBase.lvclass"/>
 		<Item Name="ICommHandler.lvclass" Type="LVClass" URL="../Comm Handlers/ICommHandler/ICommHandler.lvclass"/>
-		<Item Name="RawSocket Handler.lvclass" Type="LVClass" URL="../Comm Handlers/RawSocket Handler/RawSocket Handler.lvclass"/>
+		<Item Name="RawSocket TCP Handler.lvclass" Type="LVClass" URL="../Comm Handlers/RawSocket TCP Handler/RawSocket TCP Handler.lvclass"/>
 		<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="../Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
