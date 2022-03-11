@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8012">
+Could find association Subscrion ID for the given subscriotion topic
+</nierror>
 <nierror code="-8011">
 Receievd unexppected rawsocket TCP PONG message
 </nierror>
@@ -38,7 +41,7 @@ Received WAMP error message
 <nierror code="-8000">
 Received WAMP abort message
 </nierror>
-<nierror code="-8012">
-Could find association Subscrion ID for the given subscriotion topic
+<nierror code="-8013">
+Operation timed out
 </nierror>
 </nidocument>
