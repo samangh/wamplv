@@ -15,5 +15,8 @@
 		<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Event-based.vi"/>
 		<Item Name="Publish and Subscribe Queue-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Queue-based.vi"/>
 	</Item>
+	<Item Name="Private Classes" Type="Folder">
+		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Invocation Request ID/Invocation Request ID.lvclass"/>
+	</Item>
 	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
