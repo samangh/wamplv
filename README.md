@@ -45,9 +45,13 @@ the VI package is also available to download
 Use the `New Client.vi` to create a new WAMP client and then
 `Connect.vi` to connect.
 
-The router addres must be a fully formed address, for example use
+The router address must be a fully formed address. Use
 `ws://localhost:8080/` to connect to the localhost on port 8080 using
 WebSocket. Use `tcp://localhost:8080/` to connect using RawSocket TCP.
+
+When using WebSocket, note that some WAMP routers
+(e.g. [Crossbar](https://crossbar.io/)) need a `/ws` sub-URI by default
+(i.e. the router address should be `ws://localhost:8080/ws`).
 
 ![Connecting](images/connecting.png)
 
