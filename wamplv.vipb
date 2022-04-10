@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2022-04-04 00:01:08" Creator="Saman" Comments="" ID="f26c6a6998b79ff84073cfb0248cea95">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2022-04-10 12:13:59" Creator="Saman" Comments="" ID="175881d0117dc5c0c63cb7d9da483177">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.1.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -42,11 +42,11 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
       <Copyright>Copyright (c) 2021, Saman Ghannadzadeh</Copyright>
       <Packager>Saman Ghannadzadeh</Packager>
       <URL>https://github.com/samangh/wamplv</URL>
-      <Release_Notes>- Add support for raw socket TCP connections;
-- The connection protocol is now automatically selected based on the URI, use "tcp://server:port/" for RawSocket TCP and "ws://server:port/" etc for WebSocket;
-- WAMP errors are better handled;
-- Asyncronous operations now return a notifier that can be used to get the result of the operation;
-- The user must now serialise/deserialise  Arguments and ArgumentKw JSON strings themselves.</Release_Notes>
+      <Release_Notes>Bugfixes:
+
+ - 'Is Connected.vi' returns false now if the WAMP connected has been cleaned up;
+ - Disconnect cleanly in the provied event-based example;
+ - Pass user-supplied options to the router when publishing to a topic.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -498,7 +498,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>WAMP Client\API\WAMP\Yield Error (async).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>030197820F0C7385B43E0FCD3A054E8A</GUID>
+      <GUID>795BFF62341BD05ACFB46634139AEA74</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -561,7 +561,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>Examples\Publish and Subscribe Queue-based.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD6A67824551625B88C47408EA8F02F6</GUID>
+      <GUID>FBBEFF82F817E3BAA7AF1764088986AD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
