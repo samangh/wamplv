@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2022-04-10 12:13:59" Creator="Saman" Comments="" ID="175881d0117dc5c0c63cb7d9da483177">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2022-09-25 13:43:57" Creator="Saman" Comments="" ID="b2dd7534f93ec88ac9a5e1b5d8cdf638">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
-    <Library_Version>1.1.1.1</Library_Version>
+    <Library_Version>1.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,9 +17,14 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>jdp_science_jsontext &gt;=1.5.4.98</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_openuri &gt;=1.2.0.11</Additional_External_Dependencies>
-      <Additional_External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;=2.0.1.40</Additional_External_Dependencies>
+      <External_Dependencies>jdp_science_jsontext &gt;= 1.6.10.113</External_Dependencies>
+      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.0.17</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_openuri &gt;= 1.2.0.11</External_Dependencies>
+      <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.1.40</External_Dependencies>
+      <Direct_Dependencies>jdp_science_jsontext-1.6.10.113</Direct_Dependencies>
+      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.0.17</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_openuri-1.2.0.11</Direct_Dependencies>
+      <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.1.40</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -42,11 +47,10 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
       <Copyright>Copyright (c) 2021, Saman Ghannadzadeh</Copyright>
       <Packager>Saman Ghannadzadeh</Packager>
       <URL>https://github.com/samangh/wamplv</URL>
-      <Release_Notes>Bugfixes:
+      <Release_Notes>Features:
 
- - 'Is Connected.vi' returns false now if the WAMP connected has been cleaned up;
- - Disconnect cleanly in the provied event-based example;
- - Pass user-supplied options to the router when publishing to a topic.</Release_Notes>
+- Add ability to specify additional transport options via property nodes;
+- Add ability to specify additional WebSocket headers.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -257,7 +261,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>WAMP Client\API\New Client.vi</Path>
+        <Path>WAMP Client\New Client.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -498,7 +502,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>WAMP Client\API\WAMP\Yield Error (async).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>795BFF62341BD05ACFB46634139AEA74</GUID>
+      <GUID>C1C4001C34B291F0379B64628F3651CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -561,7 +565,7 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
         <Path>Examples\Publish and Subscribe Queue-based.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBBEFF82F817E3BAA7AF1764088986AD</GUID>
+      <GUID>8F8098F517F5C1BB09E21978DB931937</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
