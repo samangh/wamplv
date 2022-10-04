@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Examples" Type="Folder">
+		<Item Name="Connect and publish with TLS.vi" Type="VI" URL="../Examples/Connect and publish with TLS.vi"/>
 		<Item Name="Connect and publish.vi" Type="VI" URL="../Examples/Connect and publish.vi"/>
 		<Item Name="Publish and Subscribe Event-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Event-based.vi"/>
 		<Item Name="Publish and Subscribe Queue-based.vi" Type="VI" URL="../Examples/Publish and Subscribe Queue-based.vi"/>
@@ -16,6 +17,7 @@
 			<Item Name="RawSocket TCP Handler.lvclass" Type="LVClass" URL="../Private/Comm Handlers/RawSocket TCP Handler/RawSocket TCP Handler.lvclass"/>
 			<Item Name="Websocket Handler.lvclass" Type="LVClass" URL="../Private/Comm Handlers/Websocket Handler/Websocket Handler.lvclass"/>
 			<Item Name="TCPSocketBasedCommHandlerBase.lvclass" Type="LVClass" URL="../Private/Comm Handlers/TCPSocketBasedCommHandlerBase/TCPSocketBasedCommHandlerBase.lvclass"/>
+			<Item Name="TLS Options.ctl" Type="VI" URL="../TLS Options.ctl"/>
 		</Item>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 	</Item>
