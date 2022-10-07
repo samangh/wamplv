@@ -33,7 +33,7 @@ the VI package is also available to download [[https://github.com/samangh/wamplv
 The VIs in the `Example` folder will show you how to get started.
 
 #+CAPTION:Example
-[[images/example.png]]
+[[docs/images/example.png]]
 
 Important points:
 
@@ -52,7 +52,7 @@ Important points:
   (i.e. will not reconnect), call `Cleanup.vi` to cleanup any internal
   DVRs and unregister the user events that _wamplv_creates.
 
-See the [[guide.md][user guide]] for more details.
+See the [[docs/guide.md][user guide]] for more details.
 
 ** License
 
