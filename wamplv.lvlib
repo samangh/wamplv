@@ -8,7 +8,8 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Example - Publish.vi" Type="VI" URL="../Examples/Example - Publish.vi"/>
 		<Item Name="Example - Publish with TLS.vi" Type="VI" URL="../Examples/Example - Publish with TLS.vi"/>
-		<Item Name="Example - Publish with ticket authentication.vi" Type="VI" URL="../Examples/Example - Publish with ticket authentication.vi"/>
+		<Item Name="Example - Publish with authentication.vi" Type="VI" URL="../Examples/Example - Publish with authentication.vi"/>
+		<Item Name="Example - Publish with multiple authentication methods.vi" Type="VI" URL="../Examples/Example - Publish with multiple authentication methods.vi"/>
 		<Item Name="Example - Call endpoint.vi" Type="VI" URL="../Examples/Example - Call endpoint.vi"/>
 		<Item Name="Example - Call endpoint asynchronously.vi" Type="VI" URL="../Examples/Example - Call endpoint asynchronously.vi"/>
 		<Item Name="Example - Event-based operations.vi" Type="VI" URL="../Examples/Example - Event-based operations.vi"/>
@@ -22,6 +23,7 @@
 			<Item Name="TicketAuthentactor.lvclass" Type="LVClass" URL="../Private/Authenticators/TicketAuthentactor/TicketAuthentactor.lvclass">
 				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 			</Item>
+			<Item Name="WampCraAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/WampCraAuthenticator/WampCraAuthenticator.lvclass"/>
 		</Item>
 		<Item Name="Comm Handlers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -33,6 +35,7 @@
 			<Item Name="TLS Options.ctl" Type="VI" URL="../Private/TLS Options.ctl"/>
 		</Item>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
+		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
 	</Item>
 	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
