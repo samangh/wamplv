@@ -5,6 +5,21 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8018">
+Cannot add multiple authentication methods of the same type
+</nierror>
+<nierror code="-8017">
+Authentication failure
+</nierror>
+<nierror code="-8016">
+Did not receive CHALLENGE or WELCOME in response to HELLOW
+</nierror>
+<nierror code="-8015">
+Recevied CHALLENGE with unsuppored authentication method
+</nierror>
+<nierror code="-8014">
+Could not find the reigstration ID of the endpoint. You do not appear to have registered the endpoint.
+</nierror>
 <nierror code="-8013">
 Operation timed out
 </nierror>
@@ -43,8 +58,5 @@ Received WAMP error message
 </nierror>
 <nierror code="-8000">
 Received WAMP abort message
-</nierror>
-<nierror code="-8014">
-Could not find the reigstration ID of the endpoint. You do not appear to have registered the endpoint.
 </nierror>
 </nidocument>
