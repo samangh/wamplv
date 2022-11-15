@@ -34,8 +34,12 @@
 			<Item Name="TCPSocketBasedCommHandlerBase.lvclass" Type="LVClass" URL="../Private/Comm Handlers/TCPSocketBasedCommHandlerBase/TCPSocketBasedCommHandlerBase.lvclass"/>
 			<Item Name="TLS Options.ctl" Type="VI" URL="../Private/TLS Options.ctl"/>
 		</Item>
+		<Item Name="third-party" Type="Folder">
+			<Item Name="hashlib.lvlib" Type="Library" URL="../Private/third-party/hashlib/src/hashlib.lvlib"/>
+		</Item>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
 	</Item>
+	<Item Name="PBKDF2 generator.vi" Type="VI" URL="../PBKDF2 generator.vi"/>
 	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
