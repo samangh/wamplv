@@ -16,6 +16,7 @@
 		<Item Name="Example - Queue-based operations.vi" Type="VI" URL="../Examples/Example - Queue-based operations.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Authenticators" Type="Folder">
 			<Item Name="IAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/IAuthenticator/IAuthenticator.lvclass">
 				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
@@ -34,9 +35,7 @@
 			<Item Name="TCPSocketBasedCommHandlerBase.lvclass" Type="LVClass" URL="../Private/Comm Handlers/TCPSocketBasedCommHandlerBase/TCPSocketBasedCommHandlerBase.lvclass"/>
 			<Item Name="TLS Options.ctl" Type="VI" URL="../Private/TLS Options.ctl"/>
 		</Item>
-		<Item Name="third-party" Type="Folder">
-			<Item Name="hashlib.lvlib" Type="Library" URL="../Private/third-party/hashlib/src/hashlib.lvlib"/>
-		</Item>
+		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
 	</Item>

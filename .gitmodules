@@ -1,4 +1,0 @@
-[submodule "Private/third-party/hashlib"]
-	path = Private/third-party/hashlib
-	url = git@github.com:samangh/LabVIEW-Hashlib-lv2020.git
-	branch = master
