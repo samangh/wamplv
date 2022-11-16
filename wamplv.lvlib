@@ -8,12 +8,13 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Example - Publish.vi" Type="VI" URL="../Examples/Example - Publish.vi"/>
 		<Item Name="Example - Publish with TLS.vi" Type="VI" URL="../Examples/Example - Publish with TLS.vi"/>
-		<Item Name="Example - Publish with authentication.vi" Type="VI" URL="../Examples/Example - Publish with authentication.vi"/>
-		<Item Name="Example - Publish with multiple authentication methods.vi" Type="VI" URL="../Examples/Example - Publish with multiple authentication methods.vi"/>
 		<Item Name="Example - Call endpoint.vi" Type="VI" URL="../Examples/Example - Call endpoint.vi"/>
 		<Item Name="Example - Call endpoint asynchronously.vi" Type="VI" URL="../Examples/Example - Call endpoint asynchronously.vi"/>
 		<Item Name="Example - Event-based operations.vi" Type="VI" URL="../Examples/Example - Event-based operations.vi"/>
 		<Item Name="Example - Queue-based operations.vi" Type="VI" URL="../Examples/Example - Queue-based operations.vi"/>
+		<Item Name="Example - Authenticate using ticket.vi" Type="VI" URL="../Examples/Example - Authenticate using ticket.vi"/>
+		<Item Name="Example - Authenticate using multiple methods.vi" Type="VI" URL="../Examples/Example - Authenticate using multiple methods.vi"/>
+		<Item Name="Example - Authenticate using WAMP-CRA and PBKDF2-SHA-256.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-CRA and PBKDF2-SHA-256.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
