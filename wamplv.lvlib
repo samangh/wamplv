@@ -25,6 +25,7 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 			</Item>
 			<Item Name="WampCraAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/WampCraAuthenticator/WampCraAuthenticator.lvclass"/>
+			<Item Name="PBKDF2 hash type.ctl" Type="VI" URL="../Private/PBKDF2 hash type.ctl"/>
 		</Item>
 		<Item Name="Comm Handlers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
