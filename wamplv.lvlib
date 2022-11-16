@@ -41,6 +41,6 @@
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
 	</Item>
-	<Item Name="PBKDF2 generator.vi" Type="VI" URL="../PBKDF2 generator.vi"/>
+	<Item Name="PBKDF2-SHA-256 generator.vi" Type="VI" URL="../PBKDF2-SHA-256 generator.vi"/>
 	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
