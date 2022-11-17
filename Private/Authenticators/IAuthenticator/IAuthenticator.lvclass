@@ -15,23 +15,32 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="wamplv.lvlib:WAMP Client.lvclass" Type="Friended Library" URL="../../../../WAMP Client/WAMP Client.lvclass"/>
 	</Item>
-	<Item Name="Auth Method.vi" Type="VI" URL="../Auth Method.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$W!!!!"1!%!!!!&amp;%!Q`````QJ"&gt;82I&lt;76U;'^E!!"#1(!!(A!!*1RX97VQ&lt;(9O&lt;(:M;7)735&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!335&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)A&lt;X6U!!"!1(!!(A!!*1RX97VQ&lt;(9O&lt;(:M;7)735&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!235&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)A;7Y!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
+	<Item Name="Auth Extra.vi" Type="VI" URL="../Auth Extra.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*986U;'6Y&gt;(*B!%*!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"**186U;'6O&gt;'FD982P=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!Q`````QRB&gt;82I:8BU=G%A;7Y!!%"!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"&amp;*186U;'6O&gt;'FD982P=C"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!E!!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!)1!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+	</Item>
+	<Item Name="Auth Method.vi" Type="VI" URL="../Auth Method.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$W!!!!"1!%!!!!&amp;%!Q`````QJ"&gt;82I&lt;76U;'^E!!"#1(!!(A!!*1RX97VQ&lt;(9O&lt;(:M;7)735&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!335&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)A&lt;X6U!!"!1(!!(A!!*1RX97VQ&lt;(9O&lt;(:M;7)735&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!235&amp;V&gt;'BF&lt;H2J9W&amp;U&lt;X)A;7Y!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1107296256</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="Authenticate.vi" Type="VI" URL="../Authenticate.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E!Q`````R&amp;"&gt;82I:7ZU;7.B&gt;'5A2'FD&gt;!!A1$$`````&amp;E&amp;V&gt;'BF&lt;H2J9W&amp;U:3"4;7&gt;O982V=G5!!%*!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"**186U;'6O&gt;'FD982P=C"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"B!-0````]/1WBB&lt;'RF&lt;G&gt;F)%2J9X1!!%"!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"&amp;*186U;'6O&gt;'FD982P=C"J&lt;A"B!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'E!Q`````R&amp;"&gt;82I:7ZU;7.B&gt;'5A2'FD&gt;!!A1$$`````&amp;E&amp;V&gt;'BF&lt;H2J9W&amp;U:3"4;7&gt;O982V=G5!!%*!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"**186U;'6O&gt;'FD982P=C"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"B!-0````]/1WBB&lt;'RF&lt;G&gt;F)%2J9X1!!%"!=!!?!!!F$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B:*186U;'6O&gt;'FD982P=CZM&gt;G.M98.T!"&amp;*186U;'6O&gt;'FD982P=C"J&lt;A"B!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!E!#A-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!)1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="Implement Authenticate.vi" Type="VI" URL="../Implement Authenticate.vi">

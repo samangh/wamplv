@@ -5,6 +5,18 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8022">
+wamplv only supports PBKDF2 with WAMP-SCRAM
+</nierror>
+<nierror code="-8021">
+Router failed WAMP-SCRAM authentication
+</nierror>
+<nierror code="-8020">
+Server provided invalid nonce in WAMP-SCRAM CHALLENGE message
+</nierror>
+<nierror code="-8019">
+Router did not supply all parameters for WAMO-SCRAM authentication
+</nierror>
 <nierror code="-8018">
 Cannot add multiple authentication methods of the same type
 </nierror>

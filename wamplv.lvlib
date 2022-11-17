@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Examples" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Example - Publish.vi" Type="VI" URL="../Examples/Example - Publish.vi"/>
@@ -16,9 +17,13 @@
 		<Item Name="Example - Authenticate using multiple methods.vi" Type="VI" URL="../Examples/Example - Authenticate using multiple methods.vi"/>
 		<Item Name="Example - Authenticate using WAMP-CRA and PBKDF2-SHA-256.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-CRA and PBKDF2-SHA-256.vi"/>
 	</Item>
+	<Item Name="Authentication hash generators" Type="Folder">
+		<Item Name="Generate WAMP-CRA PBKDF2-SHA-256 hash.vi" Type="VI" URL="../Authentication hash generators/Generate WAMP-CRA PBKDF2-SHA-256 hash.vi"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Authenticators" Type="Folder">
+			<Item Name="PBKDF2 serialisation method.ctl" Type="VI" URL="../Private/PBKDF2 serialisation method.ctl"/>
 			<Item Name="IAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/IAuthenticator/IAuthenticator.lvclass">
 				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 			</Item>
@@ -26,7 +31,8 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 			</Item>
 			<Item Name="WampCraAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/WampCraAuthenticator/WampCraAuthenticator.lvclass"/>
-			<Item Name="PBKDF2 hash type.ctl" Type="VI" URL="../Private/PBKDF2 hash type.ctl"/>
+			<Item Name="WampScramAuthenticator.lvclass" Type="LVClass" URL="../Private/Authenticators/WampScramAuthenticator/WampScramAuthenticator.lvclass"/>
+			<Item Name="SecretBasedAuthenticatorBase.lvclass" Type="LVClass" URL="../Private/Authenticators/SecretBasedAuthenticatorBase/SecretBasedAuthenticatorBase.lvclass"/>
 		</Item>
 		<Item Name="Comm Handlers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -37,10 +43,13 @@
 			<Item Name="TCPSocketBasedCommHandlerBase.lvclass" Type="LVClass" URL="../Private/Comm Handlers/TCPSocketBasedCommHandlerBase/TCPSocketBasedCommHandlerBase.lvclass"/>
 			<Item Name="TLS Options.ctl" Type="VI" URL="../Private/TLS Options.ctl"/>
 		</Item>
+		<Item Name="WIP" Type="Folder">
+			<Item Name="Example - Authenticate using WAMP-SCRAM.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-SCRAM.vi"/>
+			<Item Name="Generate WAMP-SCRAM StoredKey.vi" Type="VI" URL="../Authentication hash generators/Generate WAMP-SCRAM StoredKey.vi"/>
+		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
 	</Item>
-	<Item Name="PBKDF2-SHA-256 generator.vi" Type="VI" URL="../PBKDF2-SHA-256 generator.vi"/>
 	<Item Name="WAMP Client.lvclass" Type="LVClass" URL="../WAMP Client/WAMP Client.lvclass"/>
 </Library>
