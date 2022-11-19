@@ -1,13 +1,14 @@
 * wamplv
 
 A LabVIEW-based client for the [[https://wamp-proto.org/][Web Application Messaging Protocol
-(WAMP)]]. _wamplv_ supports the WAMP basic profiles for client roles.
+(WAMP)]]. Features:
 
 + Platform: Windows, Linux, macOS and Real Time targets
 + Roles: caller, callee, subscriber and publisher
 + Transport: WebSocket, RawSocket TCP (including TLS/SSL support for
   both)
 + Message Serialisation: JSON
++ Authentication: Ticket, WAMP-CRA, WAMP-CRA/PBKDF2
 
 This library will only work on LabVIEW 2020 or later.
 
