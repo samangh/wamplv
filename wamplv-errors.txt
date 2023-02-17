@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8023">
+The given URI does not comply to the WAMP standard
+</nierror>
 <nierror code="-8022">
 wamplv only supports PBKDF2 with WAMP-SCRAM
 </nierror>
