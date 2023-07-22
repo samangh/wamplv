@@ -7,6 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Examples" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Example - Subscribe.vi" Type="VI" URL="../Examples/Example - Subscribe.vi"/>
 		<Item Name="Example - Publish.vi" Type="VI" URL="../Examples/Example - Publish.vi"/>
 		<Item Name="Example - Publish with TLS.vi" Type="VI" URL="../Examples/Example - Publish with TLS.vi"/>
 		<Item Name="Example - Register endpoint.vi" Type="VI" URL="../Examples/Example - Register endpoint.vi"/>
