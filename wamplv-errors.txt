@@ -5,9 +5,6 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
-<nierror code="-8023">
-The given URI does not comply to the WAMP standard
-</nierror>
 <nierror code="-8022">
 wamplv only supports PBKDF2 with WAMP-SCRAM
 </nierror>
@@ -66,7 +63,7 @@ Router does not support the specified serialiser
 Router does not support raw socket protocol
 </nierror>
 <nierror code="-8003">
-Router disconnected
+Not connected to router
 </nierror>
 <nierror code="-8001">
 Received WAMP error message
