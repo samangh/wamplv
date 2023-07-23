@@ -24,13 +24,13 @@ Cannot add multiple authentication methods of the same type
 Authentication failure
 </nierror>
 <nierror code="-8016">
-Did not receive CHALLENGE or WELCOME in response to HELLOW
+Did not receive CHALLENGE or WELCOME in response to HELLO
 </nierror>
 <nierror code="-8015">
 Recevied CHALLENGE with unsuppored authentication method
 </nierror>
 <nierror code="-8014">
-Could not find the reigstration ID of the endpoint. You do not appear to have registered the endpoint.
+Could not find the registration ID of the endpoint, you do not appear to have registered the endpoint
 </nierror>
 <nierror code="-8013">
 Operation timed out
