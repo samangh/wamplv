@@ -1,0 +1,16 @@
+* Change Log
+
+All notable changes to this project will be documented in this file.
+
+** [1.4.2.1] - 2023-07-23
+
+Fixes:
+
++ A bug where performing a WAMP operation immediately afteer connecting
+  to a router occasionally resulted in a "Router disconnected" message.
+
+Features:
+
++ Add example for subscribing to topics;
++ Allow setting of the WAMP ~Options~ paramter for all operations;
++ Reduce default timeout to 1 second.
