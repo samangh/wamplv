@@ -1,3 +1,6 @@
+[[https://www.vipm.io/package/samangh_lib_wamplv_wamp_client/][https://www.vipm.io/package/samangh_lib_wamplv_wamp_client/badge.svg?metric=installs]]
+[[https://www.vipm.io/package/samangh_lib_wamplv_wamp_client/][https://www.vipm.io/package/samangh_lib_wamplv_wamp_client/badge.svg?metric=stars]]
+
 * wamplv
 
 A LabVIEW-based client for the [[https://wamp-proto.org/][Web Application Messaging Protocol
