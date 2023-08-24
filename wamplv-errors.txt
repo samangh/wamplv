@@ -36,7 +36,7 @@ Could not find the registration ID of the endpoint, you do not appear to have re
 Operation timed out
 </nierror>
 <nierror code="-8012">
-Could find association Subscrion ID for the given subscription topic
+You are not subscribed to this topic
 </nierror>
 <nierror code="-8011">
 Receievd unexppected rawsocket TCP PONG message
