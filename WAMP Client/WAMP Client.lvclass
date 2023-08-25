@@ -1215,6 +1215,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082138640</Property>
 			</Item>
+			<Item Name="WAMP to LV error.vi" Type="VI" URL="../Private/SubVIs/WAMP to LV error.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-S!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q&gt;%:82B;7RT!"R!-0````]318*H&gt;7VF&lt;H2,&gt;S"198FM&lt;W&amp;E!!!-1#%'28*S&lt;X)`!!!31$$`````#56S=G^S)&amp;6331!;1$$`````%5&amp;S:X6N:7ZU=S"198FM&lt;W&amp;E!&amp;A!]1!!!!!!!!!$$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T$F&gt;"46!A:8*S&lt;X)O9X2M!#"!5!!&amp;!!1!"1!'!!=!#!J897VQ)%6S=G^S!!!%!!!!7!$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-/6U&amp;.5#"F=H*P=CZD&gt;'Q!)%"1!!5!"!!&amp;!!9!"Q!)#F&gt;"46!A28*S&lt;X)!!"*!5!!$!!!!!1!#"56S=G^S!&amp;Q!]1!!!!!!!!!$$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T%E.P&lt;7*J&lt;G6E)'6S=G^S,G.U&lt;!!A1&amp;!!!Q!'!!M!$!Z$&lt;WVC;7ZF:#"&amp;=H*P=A!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!=!$52F&gt;'&amp;J&lt;(-A37ZE:8A!%%!Q`````Q9]3F.04DY!!"J!1!!"`````Q!1$%VF=X.B:W5A3F.04A!!6Q$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-76U&amp;.5#".:8.T97&gt;F)%.P:'6T,G.U&lt;!!81!9!$5VF=X.B:W5A1W^E:8-!8Q$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-:6U&amp;.5#"3:7.F;8:F:#".:8.T97&gt;F,G.U&lt;!!=1&amp;!!!A!2!")-6U&amp;.5#".:8.T97&gt;F!!"5!0!!$!!$!!E!#A!.!!I!#A!+!!I!$A!0!!I!%Q-!!(A!!!U)!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!!!!!!!%!!!!!!"!"1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
+			</Item>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
