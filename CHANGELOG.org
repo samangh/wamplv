@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+** [1.5.0.1] - 2023-08-25
+
+Features:
+
++ In ~CALL~ requests, send empty ~Arguments~ list when the ~Arguments~
+  terminal is unwired;
++ Go back to traditional style LabVIEW errors (as opposed to JSON array
+  errors).
+
+Fixes:
+
++ Make error message for error ~-8012~ more clear;
++ format ~ABORT~ messages properly;
++ Improve error handling if request times out.
+
 ** [1.4.2.1] - 2023-07-23
 
 Fixes:
