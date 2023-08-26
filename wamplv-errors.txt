@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8023">
+Could not release notifer or user event
+</nierror>
 <nierror code="-8022">
 wamplv only supports PBKDF2 with WAMP-SCRAM
 </nierror>
