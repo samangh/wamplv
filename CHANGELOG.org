@@ -6,13 +6,14 @@ All notable changes to this project will be documented in this file.
 
 Features:
 
++ Make specifying a topic mandatory for PUBLICATION requests;
 + Provider notifier for getting for getting WAMP events published to a
   specific topic;
 + Release all notifiers on timeout.
 
 Fixes:
 
-+ Synchronous `Call.vi` not working properly.
++ Synchronous ~Call.vi~ not working properly.
 
 
 ** [1.5.0.1] - 2023-08-25
