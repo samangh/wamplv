@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2023-08-31 00:11:47" Creator="Saman" Comments="" ID="7c5f084460ecea4fd0a6e26b88ed10e9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-10-31 11:52:59" Modified_Date="2023-08-31 00:30:32" Creator="Saman" Comments="" ID="11f1463fbf745ae5e6ace553ae7179cf">
   <Library_General_Settings>
     <Package_File_Name>samangh_lib_wamplv_WAMP_Client</Package_File_Name>
-    <Library_Version>1.6.0.2</Library_Version>
+    <Library_Version>1.6.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -507,7 +507,7 @@ Fixes:
         <Path>WAMP Client\API\WAMP\Yield Error (async).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62F61C7D33B68691A0FCAB13ADCED3DB</GUID>
+      <GUID>7E2877BE95A8C4AE85110C7F34471828</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -654,7 +654,7 @@ Fixes:
         <Path>Examples\Example - Publish with TLS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1560F18C05E7D5EEDD922AF054C11B79</GUID>
+      <GUID>9E23493C3E32DCE617DFA3B530207E7A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

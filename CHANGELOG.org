@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+** [1.6.0.2] - 2023-08-31
+
+Fix spelling of VIP package description.
+
 ** [1.6.0.1] - 2023-08-31
 
 Features:
