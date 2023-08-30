@@ -50,15 +50,15 @@ The library is designed to give you complete flexibility in how you use WAMP.</D
       <URL>https://github.com/samangh/wamplv</URL>
       <Release_Notes>Features:
 
-* The wamplv daemon now gets terminated if VIs are aborted or finish execution;
-* Make specifying a topic mandatory for PUBLICATION requests;
-* Provider notifier for when a specific WAMP topic is published to;
-* Allow for multiple subscriptions and unsubscriptions to a topic, the  subscriptin is refernce counted. To fully unsubscrive, call  Unsubscribe.vi as many times as Unsubscribe.vi.
-* Release all notifiers on timeout.
+  * The `wamplv` daemon now gets terminated if VIs are aborted or finish execution;
+  * Make specifying a topic mandatory for PUBLICATION requests;
+  * Provide a notifier for when a specific WAMP topic is published to;
+  * Allow for multiple subscriptions and unsubscriptions to a topic, the subscription is reference counted. To fully unsubscribe, call  Unsubscribe.vi as many times as Unsubscribe.vi;
+  * Release all notifiers on timeout.
 
 Fixes:
 
-* Synchronous Call.vi not working properly.</Release_Notes>
+  * Synchronous Call.vi not working properly.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

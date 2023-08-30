@@ -9,9 +9,9 @@ Features:
 + The wamplv daemon now gets terminated if VIs are aborted or finish
   execution;
 + Make specifying a topic mandatory for PUBLICATION requests;
-+ Provider notifier for when a specific WAMP topic is published to;
++ Provide notifier for when a specific WAMP topic is published to;
 + Allow for multiple subscriptions and unsubscriptions to a topic, the
-  subscriptin is refernce counted. To fully unsubscrive, call
+  subscription is refernce counted. To fully unsubscribe, call
   ~Unsubscribe.vi~ as many times as ~Unsubscribe.vi~.
 + Release all notifiers on timeout.
 
