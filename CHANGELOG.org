@@ -6,9 +6,13 @@ All notable changes to this project will be documented in this file.
 
 Features:
 
++ The wamplv daemon now gets terminated if VIs are aborted or finish
+  execution;
 + Make specifying a topic mandatory for PUBLICATION requests;
-+ Provider notifier for getting for getting WAMP events published to a
-  specific topic;
++ Provider notifier for when a specific WAMP topic is published to;
++ Allow for multiple subscriptions and unsubscriptions to a topic, the
+  subscriptin is refernce counted. To fully unsubscrive, call
+  ~Unsubscribe.vi~ as many times as ~Unsubscribe.vi~.
 + Release all notifiers on timeout.
 
 Fixes:
