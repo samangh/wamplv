@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8024">
+wamlv VI aborted, not setup or the class  is otherwise garbage collected
+</nierror>
 <nierror code="-8023">
 Could not release notifer or user event
 </nierror>
