@@ -47,10 +47,8 @@ Important points:
   + =ws://localhost:80/=
   + =ws://localhost:80/ws=
   + =wss://localhost:80/=
-+ Remember to *always* call =Disconnect.vi= at the end of your
-  program. This will disconnect from the router and stop the
-  communication daemon. Simply stopping the VI is not enough as the
-  wamplv communication daemon runs asynchronously in the background.
++ Call =Disconnect.vi= at the end of your program to disconnect from the
+  router cleanly.
 + If you have finished using the WAMP client after disconnecting
   (i.e. will not reconnect), call =Cleanup.vi= to cleanup any internal
   DVRs and unregister the user events that wamplv creates.
