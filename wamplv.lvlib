@@ -49,13 +49,6 @@
 			<Item Name="Example - Authenticate using WAMP-SCRAM.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-SCRAM.vi"/>
 			<Item Name="Generate WAMP-SCRAM StoredKey.vi" Type="VI" URL="../Authentication hash generators/Generate WAMP-SCRAM StoredKey.vi"/>
 		</Item>
-		<Item Name="MessagePack" Type="Folder">
-			<Item Name="MessagePack.lvclass" Type="LVClass" URL="../Private/MessagePack/MessagePack.lvclass"/>
-			<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../Private/MsgPack/MsgPackArray/MsgPackArray.lvclass"/>
-			<Item Name="MsgPackObject.lvclass" Type="LVClass" URL="../Private/MessagePack/MsgPackObject/MsgPackObject.lvclass"/>
-			<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../Private/MessagePack/IMessagePackObject/IMessagePackObject.lvclass"/>
-			<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../Private/MessagePack/MsgPackMap/MsgPackMap.lvclass"/>
-		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>

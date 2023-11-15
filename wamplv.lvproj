@@ -13,6 +13,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="MessagePack.lvlib" Type="Library" URL="../Private/MessagePack/MessagePack.lvlib"/>
 		<Item Name="wamplv.lvlib" Type="Library" URL="../wamplv.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
