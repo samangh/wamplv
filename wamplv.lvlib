@@ -9,6 +9,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Example - Subscribe.vi" Type="VI" URL="../Examples/Example - Subscribe.vi"/>
 		<Item Name="Example - Publish.vi" Type="VI" URL="../Examples/Example - Publish.vi"/>
+		<Item Name="Example - Publish using MessagePack.vi" Type="VI" URL="../Examples/Example - Publish using MessagePack.vi"/>
 		<Item Name="Example - Publish with TLS.vi" Type="VI" URL="../Examples/Example - Publish with TLS.vi"/>
 		<Item Name="Example - Register endpoint.vi" Type="VI" URL="../Examples/Example - Register endpoint.vi"/>
 		<Item Name="Example - Call endpoint.vi" Type="VI" URL="../Examples/Example - Call endpoint.vi"/>
