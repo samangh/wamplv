@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="msgpack" displayname="mspack">
+</nifamily>
+</nicomment>
+<nierror code="-8100">
+the given data can not be converted to the required format (missing bytes)
+</nierror>
+</nidocument>
