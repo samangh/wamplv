@@ -72,6 +72,16 @@
 				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="DBL to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/DBL to msgpack.vi"/>
+			<Item Name="I8 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/I8 to msgpack.vi"/>
+			<Item Name="I16 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/I16 to msgpack.vi"/>
+			<Item Name="I32 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/I32 to msgpack.vi"/>
+			<Item Name="I64 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/I64 to msgpack.vi"/>
+			<Item Name="SGL to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/SGL to msgpack.vi"/>
+			<Item Name="U8 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U8 to msgpack.vi"/>
+			<Item Name="U16 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U16 to msgpack.vi"/>
+			<Item Name="U32 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U32 to msgpack.vi"/>
+			<Item Name="U64 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U64 to msgpack.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

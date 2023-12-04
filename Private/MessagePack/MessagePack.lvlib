@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../../../MessagePack/IMessagePackObject/IMessagePackObject.lvclass"/>
 	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../../../MessagePack/MessagePack.lvclass"/>
+	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../../../MessagePack/MessagePackNumeric/MessagePackNumeric.lvclass"/>
 	<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackArray/MsgPackArray.lvclass"/>
 	<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackMap/MsgPackMap.lvclass"/>
 	<Item Name="MsgPackObject.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackObject/MsgPackObject.lvclass"/>
