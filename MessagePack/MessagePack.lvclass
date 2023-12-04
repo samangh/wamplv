@@ -67,9 +67,6 @@
 		</Item>
 	</Item>
 	<Item Name="Serialise" Type="Folder">
-		<Item Name="Numeric" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-		</Item>
 		<Item Name="binary to msgpack.vi" Type="VI" URL="../Serialise/binary to msgpack.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#9!!!!"A!%!!!!#U!&amp;!!6C?82F=Q!51%!!!@````]!!1&gt;N=W&gt;Q97.L!!5!"1!!&amp;%"!!!(`````!!-'9GFO98*Z!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%!!!!!!"!!5!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -80,13 +77,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 		</Item>
 		<Item Name="bool to msgpack.vi" Type="VI" URL="../Serialise/bool to msgpack.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#,!!!!"1!%!!!!#U!&amp;!!6C?82F=Q!51%!!!@````]!!1&gt;N=W&gt;Q97.L!!R!)1&gt;#&lt;W^M:7&amp;O!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#,!!!!"1!%!!!!#U!&amp;!!6C?82F=Q!51%!!!@````]!!1&gt;N=W&gt;Q97.L!!R!)1&gt;#&lt;W^M:7&amp;O!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$!Q!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710274</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 		<Item Name="string to msgpack.vi" Type="VI" URL="../Serialise/string to msgpack.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#0!!!!"1!%!!!!#U!&amp;!!6C?82F=Q!51%!!!@````]!!1&gt;N=W&gt;Q97.L!""!-0````]'5X2S;7ZH!!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##!!!!!!"!!1!!!!!</Property>
@@ -121,11 +118,11 @@
 	<Item Name="Convert from MessagePackT format byte.vi" Type="VI" URL="../Convert from MessagePackT format byte.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,J!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81"7A$R!!!!!!!!!!-2476T=W&amp;H:6"B9WMO&lt;(:M;7)4476T=W&amp;H:6"B9WMO&lt;(:D&lt;'&amp;T=RB.=W&gt;197.L)%^C;G6D&gt;#"5?8"F=SZD&gt;'Q"%U!7!#5,65Z466"14V*5251'5%^435Z5"EZ&amp;2UF/6!:'36B.16!)2EF916*316E'2EF95V23!UZ*4!6'15R421255F6&amp;"%**4DA&amp;1EF/-49&amp;1EF/-T)%26B5/!6&amp;7&amp;1R.A6&amp;7&amp;1T-A&gt;'4%^"6$-S"U:-4U&amp;5.D1&amp;65F/6$A'65F/6$%W"F6*4F1T-A:635Z5.D1%35Z5/!6*4F1R.A6*4F1T-A6*4F1W.!&gt;'36B&amp;7&amp;1R"U:*7%696$)(2EF926B5.!&gt;'36B&amp;7&amp;1Y#%:*7%696$%W"&amp;.55DA&amp;5V23-49&amp;5V23-T)(16*316ER.A&gt;"5F*"74-S"5V"5$%W"5V"5$-S!!R.=W&gt;197.L)&amp;2Z='5!!*M!]1!!!!!!!!!$%5VF=X.B:W6197.L,GRW&lt;'FC%UVF=X.B:W6197.L,GRW9WRB=X-24W*K:7.U)%:B&lt;7FM?3ZD&gt;'Q!7U!7!!E,67ZT&gt;8"Q&lt;X*U:71$4GFM"UZV&lt;76S;7-&amp;18*S98E$47&amp;Q"F.U=GFO:Q:#;7ZB=HE(1G^P&lt;'6B&lt;A.&amp;?(1!%E^C;G6D&gt;#"'97VJ&lt;(EA6(FQ:1!!#U!&amp;!!2#?82F!!!71%!!!@````]!"AF#?82F=S"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"!!!(`````!!9)1HFU:8-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!=!#!!)!!A!#!!*!!A!#!!+!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!)1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">8388624</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">44040208</Property>
 	</Item>
 	<Item Name="Nil.vi" Type="VI" URL="../Nil.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&lt;!!!!!Q!%!!!!%U!&amp;!!RN=W&gt;Q97.L)'ZV&lt;'Q!!$Q!]!!)!!!!!1!!!!!!!!!!!!!!!!)!!/!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!A!!!!!</Property>
@@ -143,7 +140,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
 	<Item Name="Split bytes.vi" Type="VI" URL="../Split bytes.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!"1!!(%"!!!(`````!!5/=W6M:7.U:71A9HFU:8-!!"R!1!!"`````Q!&amp;$X*F&lt;7&amp;J&lt;GFO:S"C?82F=Q!;1%!!!@````]!"1RC:7:P=G5A9HFU:8-!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!01!-!#56O:#"J&lt;G2F?!!21!-!#V.U98*U)'FO:'6Y!":!1!!"`````Q!&amp;#'*Z&gt;'6T)'FO!!"5!0!!$!!$!!1!"A!(!!A!"!!%!!1!#1!+!!M!$!-!!(A!!!U)!!!!!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!#A!!!")!!!!1!!!#%!!!!!!"!!U!!!!!</Property>
