@@ -4,10 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../../../MessagePack/IMessagePackObject/IMessagePackObject.lvclass"/>
-	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../../../MessagePack/MessagePack.lvclass"/>
-	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../../../MessagePack/MessagePackNumeric/MessagePackNumeric.lvclass"/>
-	<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackArray/MsgPackArray.lvclass"/>
-	<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackMap/MsgPackMap.lvclass"/>
-	<Item Name="MsgPackObject.lvclass" Type="LVClass" URL="../../../MessagePack/MsgPackObject/MsgPackObject.lvclass"/>
+	<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../IMessagePackObject/IMessagePackObject.lvclass"/>
+	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../MessagePack/MessagePack.lvclass"/>
+	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../MessagePackNumeric/MessagePackNumeric.lvclass"/>
+	<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../MsgPackArray/MsgPackArray.lvclass"/>
+	<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../MsgPackMap/MsgPackMap.lvclass"/>
+	<Item Name="MsgPackString.lvclass" Type="LVClass" URL="../MsgPackString/MsgPackString.lvclass"/>
 </Library>

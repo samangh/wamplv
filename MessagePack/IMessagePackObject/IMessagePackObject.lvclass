@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">MessagePack.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../Private/MessagePack/MessagePack.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../MessagePack.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*1!!!*Q(C=\:1R&lt;C-R$%6`AB1,O0).&amp;C[#\8E&amp;.SF4_!$&lt;]!JO8@I+,!.M91S10I(\!!&amp;Y"2^A'V`"_U&lt;$]=:.JEG!&amp;*''MO:4)N^)MK27@EAX/EW6W&lt;M&amp;@V^H@&gt;P'HJN[GH^Y2G(IV&lt;44\&amp;T@O-:!&amp;`'(^T(3R@T``MMEMWH_K;*XS\@`W`_V`&gt;0(?T0^*`D=)FUV5CSRQ"ST^H7H2%`U2%`U2%`U1!`U1!`U1!^U2X&gt;U2X&gt;U2X&gt;U1T&gt;U1T&gt;U1T@U6N'&amp;,H3BMSJ*]C22%D1*E!Q'25G4]#1]#5`#Q[M3HI1HY5FY%B['+/&amp;*?"+?B#@B9:I3HI1HY5FY%BZ#.:*M&amp;2W?B)@Q#HA#HI!HY!FY3+G!*Q!)EA7"AS"A+(!'H9!HY!FY[#LA#8A#HI!HY-'NA#@A#8A#HI#(+7V6IN(U&amp;2U?QMDB=8A=(I@(Y3'U("[(R_&amp;R?"Q?UMHB=8A=##?B%RQ%/:/=!=[,Q_0Q]#/(R_&amp;R?"Q?BQ&gt;8WS&amp;P+^04^"5&gt;(I0(Y$&amp;Y$"[$BR!S?!Q?A]@A-8A)+Y0(Y$&amp;Y$"[$BV1S?!Q?A]=!-:+38E9Q9[)RS"!-(JZW7KTN5D13;\8_GM."62V!V=&amp;3(2D616"NM'LD6"OC7GD6!KI72P8"KA^2!;I3KQ+K"OJ)?]$W7)&gt;NM47WQJ&lt;9!JPX5T^YY0&amp;YV/&amp;QU([`6^&gt;VWG[X7K`87KV77C[87CQ7GM`HZ^PK*X5I6_/^N+'`?XKZ?`TT?N]^``K^?`B\PXOYP?PVU@]:.NR,8_&amp;OV,6/&lt;[ZZVOA@8)&amp;CDA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
