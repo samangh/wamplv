@@ -5,6 +5,9 @@
 <nifamily familyname="msgpack" displayname="mspack">
 </nifamily>
 </nicomment>
+<nierror code="-8103">
+Could not generate MsgPack format byte
+</nierror>
 <nierror code="-8102">
 Unsupport MessagePack object type
 </nierror>
@@ -14,7 +17,7 @@ the given data does nto represent a numeric MsgPack object
 <nierror code="-8100">
 the given data can not be converted to the required format (missing bytes)
 </nierror>
-<nierror code="-8103">
-Could not generate MsgPack format byte
+<nierror code="-8104">
+Passed bytes do not represnet a MessagePack string
 </nierror>
 </nidocument>
