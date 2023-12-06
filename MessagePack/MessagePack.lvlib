@@ -18,6 +18,7 @@
 	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../MessagePack/MessagePack.lvclass"/>
 	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../MessagePackNumeric/MessagePackNumeric.lvclass"/>
 	<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../MsgPackArray/MsgPackArray.lvclass"/>
+	<Item Name="MsgPackBool.lvclass" Type="LVClass" URL="../MsgPackBool/MsgPackBool.lvclass"/>
 	<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../MsgPackMap/MsgPackMap.lvclass"/>
 	<Item Name="MsgPackString.lvclass" Type="LVClass" URL="../MsgPackString/MsgPackString.lvclass"/>
 </Library>
