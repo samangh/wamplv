@@ -4,6 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Next object type.vi" Type="VI" URL="../Private/Next object type.vi"/>
+		<Item Name="Pre-append object type byte.vi" Type="VI" URL="../Private/Pre-append object type byte.vi"/>
+		<Item Name="Split bytes.vi" Type="VI" URL="../Private/Split bytes.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="MsgPack Object Types.ctl" Type="VI" URL="../Typedefs/MsgPack Object Types.ctl"/>
+		<Item Name="Object Family.ctl" Type="VI" URL="../Typedefs/Object Family.ctl"/>
+	</Item>
 	<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../IMessagePackObject/IMessagePackObject.lvclass"/>
 	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../MessagePack/MessagePack.lvclass"/>
 	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../MessagePackNumeric/MessagePackNumeric.lvclass"/>
