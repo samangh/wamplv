@@ -22,4 +22,5 @@
 	<Item Name="MsgPackMap.lvclass" Type="LVClass" URL="../MsgPackMap/MsgPackMap.lvclass"/>
 	<Item Name="MsgPackNil.lvclass" Type="LVClass" URL="../MsgPackNil/MsgPackNil.lvclass"/>
 	<Item Name="MsgPackString.lvclass" Type="LVClass" URL="../MsgPackString/MsgPackString.lvclass"/>
+	<Item Name="MsgPackTimestamp.lvclass" Type="LVClass" URL="../MsgPackTimestamp/MsgPackTimestamp.lvclass"/>
 </Library>
