@@ -6,16 +6,15 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Next object type.vi" Type="VI" URL="../Private/Next object type.vi"/>
-		<Item Name="Pre-append object type byte.vi" Type="VI" URL="../Private/Pre-append object type byte.vi"/>
-		<Item Name="Split bytes.vi" Type="VI" URL="../Private/Split bytes.vi"/>
+		<Item Name="Next object type.vi" Type="VI" URL="../VIs/Private/Next object type.vi"/>
+		<Item Name="Pre-append object type byte.vi" Type="VI" URL="../VIs/Private/Pre-append object type byte.vi"/>
+		<Item Name="Split bytes.vi" Type="VI" URL="../VIs/Private/Split bytes.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="MsgPack Object Types.ctl" Type="VI" URL="../Typedefs/MsgPack Object Types.ctl"/>
 		<Item Name="Object Family.ctl" Type="VI" URL="../Typedefs/Object Family.ctl"/>
 	</Item>
 	<Item Name="IMessagePackObject.lvclass" Type="LVClass" URL="../IMessagePackObject/IMessagePackObject.lvclass"/>
-	<Item Name="MessagePack.lvclass" Type="LVClass" URL="../MessagePack/MessagePack.lvclass"/>
 	<Item Name="MessagePackNumeric.lvclass" Type="LVClass" URL="../MessagePackNumeric/MessagePackNumeric.lvclass"/>
 	<Item Name="MsgPackArray.lvclass" Type="LVClass" URL="../MsgPackArray/MsgPackArray.lvclass"/>
 	<Item Name="MsgPackBool.lvclass" Type="LVClass" URL="../MsgPackBool/MsgPackBool.lvclass"/>
@@ -24,4 +23,5 @@
 	<Item Name="MsgPackNil.lvclass" Type="LVClass" URL="../MsgPackNil/MsgPackNil.lvclass"/>
 	<Item Name="MsgPackString.lvclass" Type="LVClass" URL="../MsgPackString/MsgPackString.lvclass"/>
 	<Item Name="MsgPackTimestamp.lvclass" Type="LVClass" URL="../MsgPackTimestamp/MsgPackTimestamp.lvclass"/>
+	<Item Name="Variant to MessagePack Object.vi" Type="VI" URL="../VIs/Variant to MessagePack Object.vi"/>
 </Library>
