@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8025">
+Unsupported serliaser type
+</nierror>
 <nierror code="-8024">
 wamlv VI aborted, not setup or the class  is otherwise garbage collected
 </nierror>
@@ -70,6 +73,9 @@ Router does not support raw socket protocol
 </nierror>
 <nierror code="-8003">
 Not connected to router
+</nierror>
+<nierror code="-8002">
+Request serilalisation does not match client serliasiation type
 </nierror>
 <nierror code="-8001">
 Received WAMP error message
