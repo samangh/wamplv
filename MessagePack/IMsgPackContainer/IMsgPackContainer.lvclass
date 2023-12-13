@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<LVClass LVVersion="20008000">
+	<Property Name="NI.Lib.ContainingLib" Type="Str">MessagePack.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../MessagePack.lvlib</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)2!!!*Q(C=\&gt;4"&lt;=*!%)8BFSC(8/EAII5Z=[-&amp;7JA7O/:)#[]&amp;7K#&amp;;9%7;)(]8EW)F54BEEAI9OUV_+VX^W.N,)XS,$XJ@+WM@CR4?_`H_?F\RY`AY^#@8^IPX]\@N]]0]`:0B`G_OO[`5H1P^`+`S_P60]'@`Q]?.,W)K%5V.;GB;&gt;JTE2&gt;ZE2&gt;ZE2?ZS5VO=J/&lt;X/2*HO2*HO2*HO2"(O2"(O2"(O2D)R?ZS%5/K:C]G+A9N"CAO"C+CE0B+4S&amp;J`"QKM*4?!J0Y3E]8+,#5XA+4_%J0(24Y3E]B;@Q&amp;"[''J);'TG?QM0Q-B\D-2\D-2[GF0%9A*H-$'Q'A3(4;,Y9D`%9$V^F0-:D0-:D0$4,?)T(?)T(?/AS6M6$-WXE?"B'C3@R**\%EXA97IEH]33?R*.YG%[**`%EC'4#:(!)3DIF&amp;S1HC3@R]+(%EXA34_**0$3./Z2D:3&lt;.N*(D#4S"*`!%HM$$%!I]A3@Q"*\!Q\!+0)%H]!3?Q-.5#DS"*`!%E'"3JF=Q7.!RO#A)!A`\?&amp;JCX#5039R.[I&gt;8`6#K(T&lt;V1[2_/.1X88UTV4&gt;*P@DK265PFHI2V$^/D6:DV*/I/U]8[M4R3$V1^^1&gt;&gt;5P&gt;5.@5*85R&gt;@XF#U_HEY\(IQ[(A`&lt;\P8;\H&lt;&lt;&lt;L4;&lt;D&gt;&lt;LN:&lt;,J2;,R?5V]-*W?3(=QHPJ*AS0GM`"'LU"Q]RW0!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
+	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
+	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
+	<Property Name="NI_IconEditor" Type="Str">50 48 48 49 56 48 48 55 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 47 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 189 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 204 51 204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 7 86 73 32 73 99 111 110 100 1 0 0 0 0 0 6 85 67 79 78 84 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
+</Property>
+	<Item Name="Parent Libraries" Type="Parent Libraries">
+		<Item Name="MessagePack.lvlib:IMessagePackObject.lvclass" Type="Parent" URL="../../IMessagePackObject/IMessagePackObject.lvclass"/>
+	</Item>
+	<Item Name="Count.vi" Type="VI" URL="../Count.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#(!!!!"!!%!!!!#U!)!!6$&lt;X6O&gt;!"-1(!!(A!!,2&amp;.:8.T97&gt;F5'&amp;D;SZM&gt;GRJ9BF*48.H5'&amp;D;U.P&lt;H2B;7ZF=CZM&gt;G.M98.T!"2*48.H5'&amp;D;U.P&lt;H2B;7ZF=C"J&lt;A!!*!$Q!!1!!!!"!!!!!A)!!#A!!!!!!!!*!!!!!!!!!*!!!!!!!1!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">269230080</Property>
+	</Item>
+	<Item Name="Is Empty.vi" Type="VI" URL="../Is Empty.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#+!!!!"!!%!!!!$E!B#5FT)'6N=(2Z0Q"-1(!!(A!!,2&amp;.:8.T97&gt;F5'&amp;D;SZM&gt;GRJ9BF*48.H5'&amp;D;U.P&lt;H2B;7ZF=CZM&gt;G.M98.T!"2*48.H5'&amp;D;U.P&lt;H2B;7ZF=C"J&lt;A!!*!$Q!!1!!!!"!!!!!A)!!#A!!!!!!!!*!!!!!!!!!*!!!!!!!1!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">269230080</Property>
+	</Item>
+</LVClass>
