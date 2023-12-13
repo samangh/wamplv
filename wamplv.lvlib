@@ -50,6 +50,16 @@
 			<Item Name="Example - Authenticate using WAMP-SCRAM.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-SCRAM.vi"/>
 			<Item Name="Generate WAMP-SCRAM StoredKey.vi" Type="VI" URL="../Authentication hash generators/Generate WAMP-SCRAM StoredKey.vi"/>
 		</Item>
+		<Item Name="Requests" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/ICallRequest/ICallRequest.lvclass"/>
+			<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
+			<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="CALL request (JSON).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (JSON).ctl"/>
+			<Item Name="CALL request (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (MsgPack).ctl"/>
+		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
 		<Item Name="Utils.lvclass" Type="LVClass" URL="../Private/Utils/Utils.lvclass"/>
