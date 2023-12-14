@@ -56,10 +56,17 @@
 			<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/ICallRequest/ICallRequest.lvclass"/>
 			<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
 			<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+			<Item Name="IRequest.lvclass" Type="LVClass" URL="../Private/Requests/IRequest.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CALL request (JSON).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (JSON).ctl"/>
 			<Item Name="CALL request (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (MsgPack).ctl"/>
+			<Item Name="Write queue item.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Write queue item.ctl"/>
+			<Item Name="Transport type.ctl" Type="VI" URL="../Private/TypeDefs/Transport type.ctl"/>
+			<Item Name="WAMP Message Codes.ctl" Type="VI" URL="../Private/TypeDefs/WAMP Message Codes.ctl"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Generate write queue item.vim" Type="VI" URL="../Private/SubVIs/Generate write queue item.vim"/>
 		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>

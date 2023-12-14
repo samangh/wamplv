@@ -100,6 +100,7 @@
 				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Add to write queue.vim" Type="VI" URL="../WAMP Client/Private/SubVIs/Add to write queue.vim"/>
 			<Item Name="bool to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/bool to msgpack.vi"/>
 			<Item Name="DBL to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/DBL to msgpack.vi"/>
 			<Item Name="I8 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/I8 to msgpack.vi"/>
