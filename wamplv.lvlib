@@ -13,6 +13,7 @@
 		<Item Name="Example - Publish with TLS.vi" Type="VI" URL="../Examples/Example - Publish with TLS.vi"/>
 		<Item Name="Example - Register endpoint.vi" Type="VI" URL="../Examples/Example - Register endpoint.vi"/>
 		<Item Name="Example - Call endpoint.vi" Type="VI" URL="../Examples/Example - Call endpoint.vi"/>
+		<Item Name="Example - Call endpoint with MessagePack.vi" Type="VI" URL="../Examples/Example - Call endpoint with MessagePack.vi"/>
 		<Item Name="Example - Call endpoint asynchronously.vi" Type="VI" URL="../Examples/Example - Call endpoint asynchronously.vi"/>
 		<Item Name="Example - Event-based operations.vi" Type="VI" URL="../Examples/Example - Event-based operations.vi"/>
 		<Item Name="Example - Queue-based operations.vi" Type="VI" URL="../Examples/Example - Queue-based operations.vi"/>

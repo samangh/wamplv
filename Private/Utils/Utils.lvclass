@@ -53,6 +53,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">8396800</Property>
 	</Item>
+	<Item Name="Release Notifier or Event if Refnum.vim" Type="VI" URL="../../../WAMP Client/Private/SubVIs/Release Notifier or Event if Refnum.vim">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*T!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'E!Q`````R&amp;"=G&gt;V&lt;76O&gt;(-A5'&amp;Z&lt;'^B:!!=1$$`````%E&amp;S:X6N:7ZU3X=A5'&amp;Z&lt;'^B:!!!$E!Q`````Q65&lt;X"J9Q!-1#%'28*S&lt;X)`!!!11$$`````"U2F&gt;'&amp;J&lt;(-!%E!Q`````QF&amp;=H*P=C"65EE!7!$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-/6U&amp;.5#"F=H*P=CZD&gt;'Q!)%"1!!5!#A!(!!E!#Q!'#F&gt;"46!A28*S&lt;X)!!"*!5!!$!!!!!1!#"56S=G^S!&amp;Q!]1!!!!!!!!!$$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B.815V1)%.M;76O&gt;#ZM&gt;G.M98.T%E.P&lt;7*J&lt;G6E)'6S=G^S,G.U&lt;!!A1&amp;!!!Q!*!!Q!$1Z$&lt;WVC;7ZF:#"&amp;=H*P=A!!8A$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-35E6465R5)("B?7RP971O9X2M!#*!5!!%!!9!"Q!)!!Y/5E6465R5)&amp;"B?7RP971!!#"!=!!2!!%!$R2/&lt;X2J:GFF=C"P=C"&amp;&gt;G6O&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!5!"!!%!"!#!!"Y!!!.#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!!!!1!2!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519040</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">536576</Property>
+	</Item>
 	<Item Name="to Hex.vim" Type="VI" URL="../to Hex.vim">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&lt;!!!!"1!%!!!!&amp;%!Q`````QJ):8AA=X2S;7ZH!!!&amp;!!5!!"*!1!!"`````Q!#"5&amp;S=G&amp;Z!#1!]!!%!!!!!1!!!!-#!!!I!!!!!!!!#1!!!!!!!!))!!!!!!%!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
