@@ -53,9 +53,12 @@
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/ICallRequest/ICallRequest.lvclass"/>
-			<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
-			<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+			<Item Name="Call" Type="Folder">
+				<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/ICallRequest/ICallRequest.lvclass"/>
+				<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
+				<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+			</Item>
+			<Item Name="IWampMessage.lvclass" Type="LVClass" URL="../IWampMessage/IWampMessage.lvclass"/>
 			<Item Name="IRequest.lvclass" Type="LVClass" URL="../Private/Requests/IRequest.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
