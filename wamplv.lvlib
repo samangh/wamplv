@@ -54,12 +54,31 @@
 		<Item Name="Requests" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Call" Type="Folder">
-				<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/ICallRequest/ICallRequest.lvclass"/>
-				<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
-				<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+				<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallRequest/ICallRequest.lvclass"/>
+				<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
+				<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
 			</Item>
-			<Item Name="IWampMessage.lvclass" Type="LVClass" URL="../IWampMessage/IWampMessage.lvclass"/>
-			<Item Name="IRequest.lvclass" Type="LVClass" URL="../Private/Requests/IRequest.lvclass"/>
+			<Item Name="Handlers" Type="Folder">
+				<Item Name="HandlePublished" Type="Folder">
+					<Item Name="IHandlePublished.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/IHandlePublished/IHandlePublished.lvclass"/>
+					<Item Name="HandlePublished JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/HandlePublished JSON/HandlePublished JSON.lvclass"/>
+					<Item Name="HandlePublished MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/HandlePublished MsgPack/HandlePublished MsgPack.lvclass"/>
+					<Item Name="Create IHandlePublished.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/Create IHandlePublished.vi"/>
+				</Item>
+				<Item Name="HandleGoodbye" Type="Folder">
+					<Item Name="IHandleGoodby.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/IHandleGoodby/IHandleGoodby.lvclass"/>
+					<Item Name="HandleGoodby JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/HandleGoodby JSON/HandleGoodby JSON.lvclass"/>
+					<Item Name="HandleGoodby MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/HandleGoodby MsgPack.lvclass"/>
+					<Item Name="Create IHandleGoodbye.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/Create IHandleGoodbye.vi"/>
+				</Item>
+				<Item Name="HandleSubscribed" Type="Folder">
+					<Item Name="IHandleSubscribed.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Subscribed/IHandleSubscribed/IHandleSubscribed.lvclass"/>
+				</Item>
+				<Item Name="IMsgPackMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IMsgPackMessageHandler/IMsgPackMessageHandler.lvclass"/>
+				<Item Name="IJsonMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IJsonMessageHandler/IJsonMessageHandler.lvclass"/>
+				<Item Name="IReceivedMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IReceivedMessageHandler/IReceivedMessageHandler.lvclass"/>
+			</Item>
+			<Item Name="IInternalRequest.lvclass" Type="LVClass" URL="../Private/Requests/IInternalRequest.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CALL request (JSON).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (JSON).ctl"/>
@@ -69,7 +88,15 @@
 			<Item Name="WAMP Message Codes.ctl" Type="VI" URL="../Private/TypeDefs/WAMP Message Codes.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="To WAMP message code value.vi" Type="VI" URL="../Private/SubVIs/To WAMP message code value.vi"/>
 			<Item Name="Generate write queue item.vim" Type="VI" URL="../Private/SubVIs/Generate write queue item.vim"/>
+			<Item Name="From WAMP message code value.vi" Type="VI" URL="../Private/SubVIs/From WAMP message code value.vi"/>
+		</Item>
+		<Item Name="SerialisedMessages" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="MsgPackMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/MsgPackMessage/MsgPackMessage.lvclass"/>
+			<Item Name="JSONMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/JSONMessage/JSONMessage.lvclass"/>
+			<Item Name="IWampMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/IWampMessage/IWampMessage.lvclass"/>
 		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>

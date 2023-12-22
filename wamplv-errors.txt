@@ -5,6 +5,9 @@
 <nifamily familyname="wamplv" displayname="wamplv">
 </nifamily>
 </nicomment>
+<nierror code="-8026">
+Received unsupported WAMP message
+</nierror>
 <nierror code="-8025">
 Unsupported serliaser type
 </nierror>
