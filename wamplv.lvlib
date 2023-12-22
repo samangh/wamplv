@@ -59,20 +59,59 @@
 				<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
 			</Item>
 			<Item Name="Handlers" Type="Folder">
-				<Item Name="HandlePublished" Type="Folder">
+				<Item Name="Published" Type="Folder">
 					<Item Name="IHandlePublished.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/IHandlePublished/IHandlePublished.lvclass"/>
 					<Item Name="HandlePublished JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/HandlePublished JSON/HandlePublished JSON.lvclass"/>
 					<Item Name="HandlePublished MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/HandlePublished MsgPack/HandlePublished MsgPack.lvclass"/>
 					<Item Name="Create IHandlePublished.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/Create IHandlePublished.vi"/>
 				</Item>
-				<Item Name="HandleGoodbye" Type="Folder">
+				<Item Name="Goodbye" Type="Folder">
 					<Item Name="IHandleGoodby.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/IHandleGoodby/IHandleGoodby.lvclass"/>
 					<Item Name="HandleGoodby JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/HandleGoodby JSON/HandleGoodby JSON.lvclass"/>
 					<Item Name="HandleGoodby MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/HandleGoodby MsgPack.lvclass"/>
 					<Item Name="Create IHandleGoodbye.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Goodbye/Create IHandleGoodbye.vi"/>
 				</Item>
-				<Item Name="HandleSubscribed" Type="Folder">
+				<Item Name="Subscribed" Type="Folder">
 					<Item Name="IHandleSubscribed.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Subscribed/IHandleSubscribed/IHandleSubscribed.lvclass"/>
+					<Item Name="HandleSubscribed JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Subscribed/HandleSubscribed JSON/HandleSubscribed JSON.lvclass"/>
+					<Item Name="HandleSubscribed MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Subscribed/HandleSubscribed MsgPack/HandleSubscribed MsgPack.lvclass"/>
+					<Item Name="Create IHandleSubscribed.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Subscribed/Create IHandleSubscribed.vi"/>
+				</Item>
+				<Item Name="Unsubscribed" Type="Folder">
+					<Item Name="IHandledUnsubscribed.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unsubscribed/IHandledUnsubscribed/IHandledUnsubscribed.lvclass"/>
+					<Item Name="IHandleUnsubscribed JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unsubscribed/IHandleUnsubscribed JSON/IHandleUnsubscribed JSON.lvclass"/>
+					<Item Name="IHandleUnsubscribed MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unsubscribed/IHandleUnsubscribed MsgPack/IHandleUnsubscribed MsgPack.lvclass"/>
+					<Item Name="Create IHandleUnsubscribed.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Unsubscribed/Create IHandleUnsubscribed.vi"/>
+				</Item>
+				<Item Name="Event" Type="Folder">
+					<Item Name="IEventHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Event/IEventHandler/IEventHandler.lvclass"/>
+					<Item Name="EventHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Event/EventHandler JSON/EventHandler JSON.lvclass"/>
+					<Item Name="EventHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Event/EventHandler MsgPack/EventHandler MsgPack.lvclass"/>
+					<Item Name="Create IEventHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Event/Create IEventHandler.vi"/>
+				</Item>
+				<Item Name="Result" Type="Folder">
+					<Item Name="IResultHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Result/IResultHandler/IResultHandler.lvclass"/>
+					<Item Name="ResultHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Result/ResultHandler JSON/ResultHandler JSON.lvclass"/>
+					<Item Name="ResultHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Result/ResultHandler MsgPack/ResultHandler MsgPack.lvclass"/>
+					<Item Name="Create IResultHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Result/Create IResultHandler.vi"/>
+				</Item>
+				<Item Name="Registered" Type="Folder">
+					<Item Name="IRegisteredHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Registered/IRegisteredHandler.lvclass"/>
+					<Item Name="RegisteredHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Registered/RegisteredHandler JSON/RegisteredHandler JSON.lvclass"/>
+					<Item Name="RegisteredHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Registered/RegisteredHandler MsgPack/RegisteredHandler MsgPack.lvclass"/>
+					<Item Name="Create IRegisteredHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Registered/Create IRegisteredHandler.vi"/>
+				</Item>
+				<Item Name="Unregistered" Type="Folder">
+					<Item Name="IUnregisteredHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unregistered/IUnregisteredHandler.lvclass"/>
+					<Item Name="UnregisteredHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unregistered/UnregisteredHandler/UnregisteredHandler.lvclass"/>
+					<Item Name="UnregisteredHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Unregistered/UnregisteredHandler MsgPack/UnregisteredHandler MsgPack.lvclass"/>
+					<Item Name="Create IUnregisteredHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Unregistered/Create IUnregisteredHandler.vi"/>
+				</Item>
+				<Item Name="Invocation" Type="Folder">
+					<Item Name="IInvocationHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Invocation/IInvocationHandler.lvclass"/>
+					<Item Name="InvocationHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Invocation/InvocationHandler JSON/InvocationHandler JSON.lvclass"/>
+					<Item Name="InvocationHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Invocation/InvocationHandler/InvocationHandler MsgPack.lvclass"/>
+					<Item Name="Create InvocationHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Invocation/Create InvocationHandler.vi"/>
 				</Item>
 				<Item Name="IMsgPackMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IMsgPackMessageHandler/IMsgPackMessageHandler.lvclass"/>
 				<Item Name="IJsonMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IJsonMessageHandler/IJsonMessageHandler.lvclass"/>
