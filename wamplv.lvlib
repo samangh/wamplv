@@ -113,6 +113,12 @@
 					<Item Name="InvocationHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Invocation/InvocationHandler/InvocationHandler MsgPack.lvclass"/>
 					<Item Name="Create InvocationHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Invocation/Create InvocationHandler.vi"/>
 				</Item>
+				<Item Name="Error" Type="Folder">
+					<Item Name="IErrorHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IErrorHandler/IErrorHandler.lvclass"/>
+					<Item Name="ErrorHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler JSON/ErrorHandler JSON.lvclass"/>
+					<Item Name="ErrorHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler MsgPack/ErrorHandler MsgPack.lvclass"/>
+					<Item Name="Create ErrorHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Error/Create ErrorHandler.vi"/>
+				</Item>
 				<Item Name="IMsgPackMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IMsgPackMessageHandler/IMsgPackMessageHandler.lvclass"/>
 				<Item Name="IJsonMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IJsonMessageHandler/IJsonMessageHandler.lvclass"/>
 				<Item Name="IReceivedMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IReceivedMessageHandler/IReceivedMessageHandler.lvclass"/>
