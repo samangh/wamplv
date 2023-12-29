@@ -51,14 +51,73 @@
 			<Item Name="Example - Authenticate using WAMP-SCRAM.vi" Type="VI" URL="../Examples/Example - Authenticate using WAMP-SCRAM.vi"/>
 			<Item Name="Generate WAMP-SCRAM StoredKey.vi" Type="VI" URL="../Authentication hash generators/Generate WAMP-SCRAM StoredKey.vi"/>
 		</Item>
-		<Item Name="Requests" Type="Folder">
+		<Item Name="Events" Type="Folder">
+			<Item Name="Events.lvclass" Type="LVClass" URL="../Private/Events/EventsParent/Events.lvclass"/>
+			<Item Name="JsonEvents.lvclass" Type="LVClass" URL="../Private/Events/JsonEvents/JsonEvents.lvclass"/>
+			<Item Name="MsgPackEvents.lvclass" Type="LVClass" URL="../Private/Events/MsgPackEvents/MsgPackEvents.lvclass"/>
+		</Item>
+		<Item Name="InternalMessages" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Call" Type="Folder">
-				<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallRequest/ICallRequest.lvclass"/>
-				<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
-				<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+			<Item Name="Senders" Type="Folder">
+				<Item Name="Call" Type="Folder">
+					<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallRequest/ICallRequest.lvclass"/>
+					<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
+					<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
+					<Item Name="CALL Request Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/CALL Request Map.ctl"/>
+				</Item>
+				<Item Name="Subscribe" Type="Folder">
+					<Item Name="SUBSCRIBE Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/SUBSCRIBE Request Data (JSON).ctl"/>
+					<Item Name="Subscribe result (JSON).ctl" Type="VI" URL="../Private/Requests/Subscribe/Subscribe result (JSON).ctl"/>
+					<Item Name="ISubscribe.lvclass" Type="LVClass" URL="../Private/Requests/Subscribe/ISubscribe/ISubscribe.lvclass"/>
+					<Item Name="Subscribe JSON.lvclass" Type="LVClass" URL="../Private/Requests/Subscribe/Subscribe JSON/Subscribe JSON.lvclass"/>
+				</Item>
+				<Item Name="Publish" Type="Folder">
+					<Item Name="PUBLISH Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/PUBLISH Request Data (JSON).ctl"/>
+					<Item Name="PUBLISH result (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/PUBLISH result (JSON).ctl"/>
+					<Item Name="IPublish.lvclass" Type="LVClass" URL="../Private/Requests/Publish/IPublish/IPublish.lvclass"/>
+					<Item Name="Publish JSON.lvclass" Type="LVClass" URL="../Private/Requests/Publish/IPublish JSON/Publish JSON.lvclass"/>
+				</Item>
+				<Item Name="Unsubscribe" Type="Folder">
+					<Item Name="UNSUBSCRIBE Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/UNSUBSCRIBE Request Data (JSON).ctl"/>
+					<Item Name="UNSUBSCRIBE Result (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/UNSUBSCRIBE Result (JSON).ctl"/>
+					<Item Name="IUnsubscribe.lvclass" Type="LVClass" URL="../Private/Requests/Unsubscribe/IUnsubscribe/IUnsubscribe.lvclass"/>
+					<Item Name="Unsubscribe JSON.lvclass" Type="LVClass" URL="../Private/Requests/Unsubscribe/Unsubscribe JSON/Unsubscribe JSON.lvclass"/>
+				</Item>
+				<Item Name="Register" Type="Folder">
+					<Item Name="REGISTER Request Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/REGISTER Request Data.ctl"/>
+					<Item Name="IRegister.lvclass" Type="LVClass" URL="../Private/Requests/Register/IRegister/IRegister.lvclass"/>
+					<Item Name="Register JSON.lvclass" Type="LVClass" URL="../Private/Requests/Register/Register JSON/Register JSON.lvclass"/>
+				</Item>
+				<Item Name="Unregister" Type="Folder">
+					<Item Name="Unregister request (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Unregister request (JSON).ctl"/>
+					<Item Name="IUnregister.lvclass" Type="LVClass" URL="../Private/Requests/Unregister/IUnregister/IUnregister.lvclass"/>
+					<Item Name="Unregister JSON.lvclass" Type="LVClass" URL="../Private/Requests/Unregister/Unregister JSON/Unregister JSON.lvclass"/>
+				</Item>
+				<Item Name="Yield" Type="Folder">
+					<Item Name="YIELD request data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/YIELD request data (JSON).ctl"/>
+					<Item Name="IYield.lvclass" Type="LVClass" URL="../Private/Requests/Yield/IYield/IYield.lvclass"/>
+					<Item Name="Yield JSON.lvclass" Type="LVClass" URL="../Private/Requests/Yield/Yield JSON/Yield JSON.lvclass"/>
+				</Item>
+				<Item Name="Error" Type="Folder">
+					<Item Name="IError.lvclass" Type="LVClass" URL="../Private/Requests/Error/IError/IError.lvclass"/>
+					<Item Name="Error JSON.lvclass" Type="LVClass" URL="../Private/Requests/Error/Error JSON/Error JSON.lvclass"/>
+				</Item>
+				<Item Name="Abort" Type="Folder">
+					<Item Name="IAbort.lvclass" Type="LVClass" URL="../Private/Requests/Abort/IAbort/IAbort.lvclass"/>
+					<Item Name="Abort JSON.lvclass" Type="LVClass" URL="../Private/Requests/Abort/Abort JSON/Abort JSON.lvclass"/>
+					<Item Name="Abort MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/Abort/Abort MsgPack/Abort MsgPack.lvclass"/>
+				</Item>
+				<Item Name="Goodbye" Type="Folder">
+					<Item Name="Goodbye.lvclass" Type="LVClass" URL="../Private/Requests/Goodbye/Goodbye.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Handlers" Type="Folder">
+				<Item Name="Welcome" Type="Folder">
+					<Item Name="IWelcomeHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Welcome/IWelcomeHandler/IWelcomeHandler.lvclass"/>
+					<Item Name="WelcomeHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/WelcomeHandler JSON/WelcomeHandler JSON.lvclass"/>
+					<Item Name="WelcomeHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Welcome/WelcomeHandler MsgPack/WelcomeHandler MsgPack.lvclass"/>
+					<Item Name="Create IWelcomeHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Welcome/Create IWelcomeHandler.vi"/>
+				</Item>
 				<Item Name="Published" Type="Folder">
 					<Item Name="IHandlePublished.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/IHandlePublished/IHandlePublished.lvclass"/>
 					<Item Name="HandlePublished JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/HandlePublished/HandlePublished JSON/HandlePublished JSON.lvclass"/>
@@ -113,17 +172,60 @@
 					<Item Name="InvocationHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Invocation/InvocationHandler/InvocationHandler MsgPack.lvclass"/>
 					<Item Name="Create InvocationHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Invocation/Create InvocationHandler.vi"/>
 				</Item>
-				<Item Name="Error" Type="Folder">
-					<Item Name="IErrorHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IErrorHandler/IErrorHandler.lvclass"/>
-					<Item Name="ErrorHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler JSON/ErrorHandler JSON.lvclass"/>
-					<Item Name="ErrorHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler MsgPack/ErrorHandler MsgPack.lvclass"/>
-					<Item Name="Create ErrorHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Error/Create ErrorHandler.vi"/>
+				<Item Name="Error and Abort" Type="Folder">
+					<Item Name="Abort" Type="Folder">
+						<Item Name="IAbortHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/IAbortHandler/IAbortHandler.lvclass"/>
+						<Item Name="AbortHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/AbortHandler JSON/AbortHandler JSON.lvclass"/>
+						<Item Name="AbortHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/Error/AbortHandler MsgPack/AbortHandler MsgPack.lvclass"/>
+						<Item Name="Create IAbortHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Error/Create IAbortHandler.vi"/>
+					</Item>
+					<Item Name="Error" Type="Folder">
+						<Item Name="IErrorHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IErrorHandler/IErrorHandler.lvclass"/>
+						<Item Name="ErrorHandler JSON.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler JSON/ErrorHandler JSON.lvclass"/>
+						<Item Name="ErrorHandler MsgPack.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/ErrorHandler MsgPack/ErrorHandler MsgPack.lvclass"/>
+						<Item Name="Create ErrorHandler.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Error/Create ErrorHandler.vi"/>
+					</Item>
+					<Item Name="IAbortOrErrorHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/Error/IAbortOrErroHandler/IAbortOrErrorHandler.lvclass"/>
+					<Item Name="Get assoicated LV error for error UIR.vi" Type="VI" URL="../Private/Requests/MessageReceivedHandlers/Error/Get assoicated LV error for error UIR.vi"/>
 				</Item>
-				<Item Name="IMsgPackMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IMsgPackMessageHandler/IMsgPackMessageHandler.lvclass"/>
 				<Item Name="IJsonMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IJsonMessageHandler/IJsonMessageHandler.lvclass"/>
-				<Item Name="IReceivedMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IReceivedMessageHandler/IReceivedMessageHandler.lvclass"/>
+				<Item Name="IMsgPackMessageHandler.lvclass" Type="LVClass" URL="../Private/Requests/MessageReceivedHandlers/IMsgPackMessageHandler/IMsgPackMessageHandler.lvclass"/>
 			</Item>
-			<Item Name="IInternalRequest.lvclass" Type="LVClass" URL="../Private/Requests/IInternalRequest.lvclass"/>
+			<Item Name="IContainersNotiferOrEvents.lvclass" Type="LVClass" URL="../Private/Requests/IContainersNotiferOrEvents/IContainersNotiferOrEvents.lvclass"/>
+			<Item Name="IInternalMessage.lvclass" Type="LVClass" URL="../Private/Requests/IInternalMessage/IInternalMessage.lvclass"/>
+			<Item Name="IGenericInternalMessage.lvclass" Type="LVClass" URL="../Private/Requests/IGenericInternalMessage/IGenericInternalMessage.lvclass"/>
+			<Item Name="IGenericWithOutputInternalMessage.lvclass" Type="LVClass" URL="../Private/Requests/IGenericWithOutputInternalMessage/IGenericWithOutputInternalMessage/IGenericWithOutputInternalMessage.lvclass"/>
+			<Item Name="Termination Reason.ctl" Type="VI" URL="../WAMP Client/API/TypeDefs/Termination Reason.ctl"/>
+			<Item Name="Error (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Error (JSON).ctl"/>
+			<Item Name="Unregister requests map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Unregister requests map.ctl"/>
+			<Item Name="Unsubscribe Requests Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Unsubscribe Requests Map.ctl"/>
+			<Item Name="Message Loop Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Message Loop Data.ctl"/>
+			<Item Name="Publish Requests Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Publish Requests Map.ctl"/>
+			<Item Name="SUBSCRIBE Requests Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/SUBSCRIBE Requests Map.ctl"/>
+			<Item Name="Success or error (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Success or error (JSON).ctl"/>
+			<Item Name="Endpoint Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Endpoint Data.ctl"/>
+			<Item Name="Subscriptions Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Subscriptions Map.ctl"/>
+			<Item Name="GOODBYE Request Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/GOODBYE Request Data.ctl"/>
+		</Item>
+		<Item Name="Message Loop Classes" Type="Folder">
+			<Item Name="Subscription details" Type="Folder">
+				<Item Name="SubscriptionDetailsParent.lvclass" Type="LVClass" URL="../Private/Message loop classes/Subscription details/SubscriptionDetailsParent/SubscriptionDetailsParent.lvclass"/>
+				<Item Name="SubscriptionDetails JSON.lvclass" Type="LVClass" URL="../Private/Message loop classes/Subscription details/SubscriptionDetails JSON/SubscriptionDetails JSON.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="SerialisedMessages" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="IWampMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/IWampMessage/IWampMessage.lvclass"/>
+			<Item Name="WampMessage MsgPack.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/MsgPackMessage/WampMessage MsgPack.lvclass"/>
+			<Item Name="WampMessage JSON.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/JSONMessage/WampMessage JSON.lvclass"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Message type to WAMP code value.vi" Type="VI" URL="../Private/SubVIs/Message type to WAMP code value.vi"/>
+			<Item Name="Generate write queue item.vim" Type="VI" URL="../Private/SubVIs/Generate write queue item.vim"/>
+			<Item Name="Message type from WAMP code value.vi" Type="VI" URL="../Private/SubVIs/Message type from WAMP code value.vi"/>
+			<Item Name="Get Subscription ID of topic.vi" Type="VI" URL="../WAMP Client/Private/SubVIs/Get Subscription ID of topic.vi"/>
+			<Item Name="Create Random Request ID.vi" Type="VI" URL="../WAMP Client/Private/SubVIs/Create Random Request ID.vi"/>
+			<Item Name="Notify if Notifier is Refnum.vim" Type="VI" URL="../WAMP Client/Private/SubVIs/Notify if Notifier is Refnum.vim"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CALL request (JSON).ctl" Type="VI" URL="../Private/TypeDefs/CALL request (JSON).ctl"/>
@@ -131,17 +233,13 @@
 			<Item Name="Write queue item.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Write queue item.ctl"/>
 			<Item Name="Transport type.ctl" Type="VI" URL="../Private/TypeDefs/Transport type.ctl"/>
 			<Item Name="WAMP Message Codes.ctl" Type="VI" URL="../Private/TypeDefs/WAMP Message Codes.ctl"/>
-		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="To WAMP message code value.vi" Type="VI" URL="../Private/SubVIs/To WAMP message code value.vi"/>
-			<Item Name="Generate write queue item.vim" Type="VI" URL="../Private/SubVIs/Generate write queue item.vim"/>
-			<Item Name="From WAMP message code value.vi" Type="VI" URL="../Private/SubVIs/From WAMP message code value.vi"/>
-		</Item>
-		<Item Name="SerialisedMessages" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="MsgPackMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/MsgPackMessage/MsgPackMessage.lvclass"/>
-			<Item Name="JSONMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/JSONMessage/JSONMessage.lvclass"/>
-			<Item Name="IWampMessage.lvclass" Type="LVClass" URL="../Private/SerialisedMessages/IWampMessage/IWampMessage.lvclass"/>
+			<Item Name="EVENT payload (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/EVENT payload (JSON).ctl"/>
+			<Item Name="Combined error.ctl" Type="VI" URL="../WAMP Client/API/TypeDefs/Combined error.ctl"/>
+			<Item Name="Error or abort detail (JSON).ctl" Type="VI" URL="../WAMP Client/API/TypeDefs/Error or abort detail (JSON).ctl"/>
+			<Item Name="User Events.ctl" Type="VI" URL="../Private/TypeDefs/User Events.ctl"/>
+			<Item Name="Internal message type.ctl" Type="VI" URL="../Private/TypeDefs/Internal message type.ctl"/>
+			<Item Name="Error or abort detail (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/Error or abort detail (MsgPack).ctl"/>
+			<Item Name="Error data (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/Error data (MsgPack).ctl"/>
 		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>

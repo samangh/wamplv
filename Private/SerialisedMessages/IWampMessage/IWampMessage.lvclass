@@ -13,21 +13,21 @@
 
 </Property>
 	<Item Name="Message type.vi" Type="VI" URL="../Message type.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!"!!%!!!!^Q$R!!!!!!!!!!)-&gt;W&amp;N='RW,GRW&lt;'FC&amp;F&gt;"46!A476T=W&amp;H:3"$&lt;W2F=SZD&gt;'Q!SU!6!"1&amp;3%6-4%](6U6-1U^.216"1E^36!&gt;(4U^%1FF&amp;"5635E^3"V"61ER*5UA*5&amp;6#4%F43%6%#6.61F.$5EF#21J465*41V**1E6%#V6/5V6#5U.335*&amp;$&amp;6/5V6#5U.335*&amp;2!6&amp;6E6/6!2$15R-"F*&amp;5V6-6!B325&gt;*5V2&amp;5AJ325&gt;*5V2&amp;5E6%#F6/5E6(36.526)-65Z325&gt;*5V2&amp;5E6%#EF/6E^$162*4UY&amp;75F&amp;4%1!!!V.:8.T97&gt;F)%.P:'6T!$R!=!!?!!!D$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B2*6W&amp;N=%VF=X.B:W5O&lt;(:D&lt;'&amp;T=Q!036&gt;B&lt;8".:8.T97&gt;F)'FO!#1!]!!%!!!!!1!!!!)#!!!I!!!!!!!!#1!!!!!!!!#1!!!!!!%!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(2!!!!"1!%!!!!^Q$R!!!!!!!!!!)-&gt;W&amp;N='RW,GRW&lt;'FC&amp;F&gt;"46!A476T=W&amp;H:3"$&lt;W2F=SZD&gt;'Q!SU!6!"1&amp;3%6-4%](6U6-1U^.216"1E^36!&gt;(4U^%1FF&amp;"5635E^3"V"61ER*5UA*5&amp;6#4%F43%6%#6.61F.$5EF#21J465*41V**1E6%#V6/5V6#5U.335*&amp;$&amp;6/5V6#5U.335*&amp;2!6&amp;6E6/6!2$15R-"F*&amp;5V6-6!B325&gt;*5V2&amp;5AJ325&gt;*5V2&amp;5E6%#F6/5E6(36.526)-65Z325&gt;*5V2&amp;5E6%#EF/6E^$162*4UY&amp;75F&amp;4%1!!!V.:8.T97&gt;F)%.P:'6T!$Z!=!!?!!!D$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B2*6W&amp;N=%VF=X.B:W5O&lt;(:D&lt;'&amp;T=Q!136&gt;B&lt;8".:8.T97&gt;F)'^V&gt;!!!0%"Q!"Y!!#--&gt;W&amp;N='RW,GRW&lt;'FC&amp;%F897VQ476T=W&amp;H:3ZM&gt;G.M98.T!!^*6W&amp;N=%VF=X.B:W5A;7Y!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">41943040</Property>
 	</Item>
 	<Item Name="Serialisation Type.vi" Type="VI" URL="../Serialisation Type.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!"1!%!!!!&lt;!$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-25W6S;7&amp;M;8.B&gt;'FP&lt;CZD&gt;'Q!-5!7!!)%3F.04AN.:8.T97&gt;F5'&amp;D;Q!!%F.F=GFB&lt;'FT982J&lt;WYA6(FQ:1!!0E"Q!"Y!!#--&gt;W&amp;N='RW,GRW&lt;'FC&amp;%F897VQ476T=W&amp;H:3ZM&gt;G.M98.T!""*6W&amp;N=%VF=X.B:W5A&lt;X6U!!!]1(!!(A!!)QRX97VQ&lt;(9O&lt;(:M;7)536&gt;B&lt;8".:8.T97&gt;F,GRW9WRB=X-!$UF897VQ476T=W&amp;H:3"J&lt;A"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!!!!!!!!!Q)!!(A!!!!!!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$9!!!!"!!%!!!!&lt;!$R!!!!!!!!!!--&gt;W&amp;N='RW,GRW&lt;'FC%V&gt;"46!A1WRJ:7ZU,GRW9WRB=X-25W6S;7&amp;M;8.B&gt;'FP&lt;CZD&gt;'Q!-5!7!!)%3F.04AN.:8.T97&gt;F5'&amp;D;Q!!%F.F=GFB&lt;'FT982J&lt;WYA6(FQ:1!!0%"Q!"Y!!#--&gt;W&amp;N='RW,GRW&lt;'FC&amp;%F897VQ476T=W&amp;H:3ZM&gt;G.M98.T!!^*6W&amp;N=%VF=X.B:W5A;7Y!*!$Q!!1!!!!"!!!!!A)!!#A!!!!!!!!*!!!!!!!!!*!!!!!!!1!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342709760</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082138624</Property>
 	</Item>
 </LVClass>

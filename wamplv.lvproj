@@ -109,6 +109,7 @@
 			<Item Name="Internal Message.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Internal Message.ctl"/>
 			<Item Name="Nil.vi" Type="VI" URL="../MessagePack/MessagePack/Nil.vi"/>
 			<Item Name="SGL to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/SGL to msgpack.vi"/>
+			<Item Name="Subscription Details.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Subscription Details.ctl"/>
 			<Item Name="U8 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U8 to msgpack.vi"/>
 			<Item Name="U16 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U16 to msgpack.vi"/>
 			<Item Name="U32 to msgpack.vi" Type="VI" URL="../MessagePack/Serialise/U32 to msgpack.vi"/>

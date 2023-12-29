@@ -13,6 +13,6 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="wamplv.lvlib:IReceivedMessageHandler.lvclass" Type="Parent" URL="../../../IReceivedMessageHandler/IReceivedMessageHandler.lvclass"/>
+		<Item Name="wamplv.lvlib:IGenericInternalMessage.lvclass" Type="Parent" URL="../../../../IGenericInternalMessage/IGenericInternalMessage.lvclass"/>
 	</Item>
 </LVClass>
