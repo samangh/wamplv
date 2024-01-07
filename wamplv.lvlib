@@ -207,10 +207,14 @@
 			<Item Name="Subscriptions Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/Subscriptions Map.ctl"/>
 			<Item Name="GOODBYE Request Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/GOODBYE Request Data.ctl"/>
 		</Item>
-		<Item Name="Message Loop Classes" Type="Folder">
+		<Item Name="Other classes" Type="Folder">
 			<Item Name="Subscription details" Type="Folder">
 				<Item Name="SubscriptionDetailsParent.lvclass" Type="LVClass" URL="../Private/Message loop classes/Subscription details/SubscriptionDetailsParent/SubscriptionDetailsParent.lvclass"/>
 				<Item Name="SubscriptionDetails JSON.lvclass" Type="LVClass" URL="../Private/Message loop classes/Subscription details/SubscriptionDetails JSON/SubscriptionDetails JSON.lvclass"/>
+			</Item>
+			<Item Name="Error Or Sucess" Type="Folder">
+				<Item Name="ErrorOrSuccess.lvclass" Type="LVClass" URL="../Private/Message loop classes/ErrorOrSuccess/ErrorOrSuccess.lvclass"/>
+				<Item Name="ErrorOrSuccess JSON.lvclass" Type="LVClass" URL="../Private/Message loop classes/ErrorOrSuccess JSON/ErrorOrSuccess JSON.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="SerialisedMessages" Type="Folder">
