@@ -24,7 +24,7 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MustOverride" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">277618704</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">279715856</Property>
 	</Item>
 	<Item Name="Generate write queue item.vi" Type="VI" URL="../Generate write queue item.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!()!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%5!]1!!!!!!!!!#$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B*5=G&amp;O=X"P=H1A&gt;(FQ:3ZD&gt;'Q!(5!7!!)'1GFO98*Z"&amp;2F?(1!"&amp;2Z='5!!""!-0````]'5X2S;7ZH!!!.1!5!"UZV&lt;76S;7-!%E"!!!(`````!!=&amp;1HFU:8-!4!$R!!!!!!!!!!)-&gt;W&amp;N='RW,GRW&lt;'FC&amp;&amp;&gt;S;82F)(&amp;V:86F)'FU:7UO9X2M!#*!5!!$!!5!"A!)%&amp;&gt;S;82F)(&amp;V:86F)'FU:7U!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!)!!J3:8&amp;V:8.U)%F%!!![1(!!(A!!)QRX97VQ&lt;(9O&lt;(:M;7)535.B&lt;'R3:8&amp;V:8.U,GRW9WRB=X-!$%F$97RM5G6R&gt;76T&gt;!!!6!$Q!!Q!!Q!%!!1!#1!%!!1!"!!%!!I!"!!,!!Q#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!.!!!!!!</Property>
@@ -34,5 +34,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342709760</Property>
+	</Item>
+	<Item Name="Notify.vi" Type="VI" URL="../Notify.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!D$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B2*1W&amp;M&lt;&amp;*F=86F=X1O&lt;(:D&lt;'&amp;T=Q!135.B&lt;'R3:8&amp;V:8.U)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!)ARX97VQ&lt;(9O&lt;(:M;7)435.B&lt;'R3:8.V&lt;(1O&lt;(:D&lt;'&amp;T=Q!!#UF$97RM5G6T&gt;7RU!$R!=!!?!!!D$(&gt;B&lt;8"M&gt;CZM&gt;GRJ9B2*1W&amp;M&lt;&amp;*F=86F=X1O&lt;(:D&lt;'&amp;T=Q!035.B&lt;'R3:8&amp;V:8.U)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777352</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
 	</Item>
 </LVClass>

@@ -60,10 +60,14 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Senders" Type="Folder">
 				<Item Name="Call" Type="Folder">
+					<Item Name="Results" Type="Folder">
+						<Item Name="CallResult JSON.lvclass" Type="LVClass" URL="../Private/Requests/Call/CallResult JSON/CallResult JSON.lvclass"/>
+						<Item Name="ICallResult.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallResult/ICallResult.lvclass"/>
+					</Item>
+					<Item Name="CALL Request Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/CALL Request Map.ctl"/>
 					<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallRequest/ICallRequest.lvclass"/>
 					<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
 					<Item Name="CallRequest (MsgPack).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (MsgPack)/CallRequest (MsgPack).lvclass"/>
-					<Item Name="CALL Request Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/CALL Request Map.ctl"/>
 				</Item>
 				<Item Name="Subscribe" Type="Folder">
 					<Item Name="SUBSCRIBE Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/SUBSCRIBE Request Data (JSON).ctl"/>
@@ -73,18 +77,17 @@
 				</Item>
 				<Item Name="Publish" Type="Folder">
 					<Item Name="PUBLISH Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/PUBLISH Request Data (JSON).ctl"/>
-					<Item Name="PUBLISH result (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/PUBLISH result (JSON).ctl"/>
+					<Item Name="PUBLISH result (JSON)_DEL.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/PUBLISH result (JSON)_DEL.ctl"/>
 					<Item Name="IPublish.lvclass" Type="LVClass" URL="../Private/Requests/Publish/IPublish/IPublish.lvclass"/>
 					<Item Name="Publish JSON.lvclass" Type="LVClass" URL="../Private/Requests/Publish/IPublish JSON/Publish JSON.lvclass"/>
 				</Item>
 				<Item Name="Unsubscribe" Type="Folder">
 					<Item Name="UNSUBSCRIBE Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/UNSUBSCRIBE Request Data (JSON).ctl"/>
-					<Item Name="UNSUBSCRIBE Result (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/UNSUBSCRIBE Result (JSON).ctl"/>
 					<Item Name="IUnsubscribe.lvclass" Type="LVClass" URL="../Private/Requests/Unsubscribe/IUnsubscribe/IUnsubscribe.lvclass"/>
 					<Item Name="Unsubscribe JSON.lvclass" Type="LVClass" URL="../Private/Requests/Unsubscribe/Unsubscribe JSON/Unsubscribe JSON.lvclass"/>
 				</Item>
 				<Item Name="Register" Type="Folder">
-					<Item Name="REGISTER Request Data.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/REGISTER Request Data.ctl"/>
+					<Item Name="REGISTER Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/REGISTER Request Data (JSON).ctl"/>
 					<Item Name="IRegister.lvclass" Type="LVClass" URL="../Private/Requests/Register/IRegister/IRegister.lvclass"/>
 					<Item Name="Register JSON.lvclass" Type="LVClass" URL="../Private/Requests/Register/Register JSON/Register JSON.lvclass"/>
 				</Item>
@@ -229,6 +232,7 @@
 			<Item Name="Message type from WAMP code value.vi" Type="VI" URL="../Private/SubVIs/Message type from WAMP code value.vi"/>
 			<Item Name="Get Subscription ID of topic.vi" Type="VI" URL="../WAMP Client/Private/SubVIs/Get Subscription ID of topic.vi"/>
 			<Item Name="Create Random Request ID.vi" Type="VI" URL="../WAMP Client/Private/SubVIs/Create Random Request ID.vi"/>
+			<Item Name="Create Notifier if True.vim" Type="VI" URL="../WAMP Client/Private/SubVIs/Create Notifier if True.vim"/>
 			<Item Name="Notify if Notifier is Refnum.vim" Type="VI" URL="../WAMP Client/Private/SubVIs/Notify if Notifier is Refnum.vim"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
