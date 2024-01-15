@@ -60,10 +60,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Senders" Type="Folder">
 				<Item Name="Call" Type="Folder">
-					<Item Name="Results" Type="Folder">
-						<Item Name="CallResult JSON.lvclass" Type="LVClass" URL="../Private/Requests/Call/CallResult JSON/CallResult JSON.lvclass"/>
-						<Item Name="ICallResult.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallResult/ICallResult.lvclass"/>
-					</Item>
 					<Item Name="CALL Request Map.ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/CALL Request Map.ctl"/>
 					<Item Name="ICallRequest.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallRequest/ICallRequest.lvclass"/>
 					<Item Name="CallRequest (JSON).lvclass" Type="LVClass" URL="../Private/Requests/Call/CallRequest (JSON)/CallRequest (JSON).lvclass"/>
@@ -248,6 +244,16 @@
 			<Item Name="Internal message type.ctl" Type="VI" URL="../Private/TypeDefs/Internal message type.ctl"/>
 			<Item Name="Error or abort detail (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/Error or abort detail (MsgPack).ctl"/>
 			<Item Name="Error data (MsgPack).ctl" Type="VI" URL="../Private/TypeDefs/Error data (MsgPack).ctl"/>
+		</Item>
+		<Item Name="Results" Type="Folder">
+			<Item Name="Call result" Type="Folder">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+				<Item Name="ICallResult.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallResult/ICallResult.lvclass"/>
+				<Item Name="CallResult JSON.lvclass" Type="LVClass" URL="../Private/Requests/Call/CallResult JSON/CallResult JSON.lvclass"/>
+			</Item>
+			<Item Name="IRequestResult.lvclass" Type="LVClass" URL="../Private/Message loop classes/IRequestResult/IRequestResult.lvclass">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
 		</Item>
 		<Item Name="HashLib.lvclass" Type="LVClass" URL="../Private/HashLib/HashLib.lvclass"/>
 		<Item Name="Invocation Request ID.lvclass" Type="LVClass" URL="../Private/Invocation Request ID/Invocation Request ID.lvclass"/>
