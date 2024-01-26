@@ -251,6 +251,10 @@
 				<Item Name="ICallResult.lvclass" Type="LVClass" URL="../Private/Requests/Call/ICallResult/ICallResult.lvclass"/>
 				<Item Name="CallResult JSON.lvclass" Type="LVClass" URL="../Private/Requests/Call/CallResult JSON/CallResult JSON.lvclass"/>
 			</Item>
+			<Item Name="Subscribe Result" Type="Folder">
+				<Item Name="ISubscribeResult.lvclass" Type="LVClass" URL="../Public/Subscribe Result/ISubscribeResult/ISubscribeResult.lvclass"/>
+				<Item Name="SubscribeResult JSON.lvclass" Type="LVClass" URL="../Public/Subscribe Result/SubscribeResult JSON/SubscribeResult JSON.lvclass"/>
+			</Item>
 			<Item Name="IRequestResult.lvclass" Type="LVClass" URL="../Private/Message loop classes/IRequestResult/IRequestResult.lvclass">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
