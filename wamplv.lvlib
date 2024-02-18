@@ -67,7 +67,6 @@
 				</Item>
 				<Item Name="Subscribe" Type="Folder">
 					<Item Name="SUBSCRIBE Request Data (JSON).ctl" Type="VI" URL="../WAMP Client/Private/TypeDef/SUBSCRIBE Request Data (JSON).ctl"/>
-					<Item Name="Subscribe result (JSON).ctl" Type="VI" URL="../Private/Requests/Subscribe/Subscribe result (JSON).ctl"/>
 					<Item Name="ISubscribe.lvclass" Type="LVClass" URL="../Private/Requests/Subscribe/ISubscribe/ISubscribe.lvclass"/>
 					<Item Name="Subscribe JSON.lvclass" Type="LVClass" URL="../Private/Requests/Subscribe/Subscribe JSON/Subscribe JSON.lvclass"/>
 				</Item>
